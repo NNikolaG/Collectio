@@ -1,0 +1,9 @@
+<div class="row d-flex justify-content-center">
+    <div class="col-11">
+        <h1 [style]="{'text-align' : 'center'}">{{data.title}}</h1>
+        <p>{{data.content}}</p>
+    </div>
+    <div class="col-12 fact-image" [style]="{'text-align': 'center'}" *ngIf="data.image != 'noimage'">
+        <img src="assets/images/{{data.image}}" alt="">
+    </div>
+</div>

@@ -1,0 +1,489 @@
+{
+    "fungus": [
+        {
+            "id": 1,
+            "name": "Amanita Muscaria",
+            "image": "fungi1.jpg",
+            "model": "AmanitaMuscaria",
+            "infos": [
+                {
+                    "title": "",
+                    "content": "Amanita muscaria, commonly known as the fly agaric or fly amanita, is a basidiomycete of the genus Amanita. It is also a muscimol mushroom. Native throughout the temperate and boreal regions of the Northern Hemisphere, Amanita muscaria has been unintentionally introduced to many countries in the Southern Hemisphere, generally as a symbiont with pine and birch plantations, and is now a true cosmopolitan species. It associates with various deciduous and coniferous trees."
+                },
+                {
+                    "title": "",
+                    "content": "Arguably the most iconic toadstool species, the fly agaric is a large white-gilled, white-spotted, usually red mushroom, and is one of the most recognizable and widely encountered in popular culture. This includes video game design, such as the extensive use of a recognizable Amanita muscaria in the Mario franchise and its Super Mushroom power up."
+                },
+                {
+                    "title": "",
+                    "content": "Amanita muscaria is the type species of the genus. By extension, it is also the type species of Amanita subgenus Amanita, as well as section Amanita within this subgenus. Amanita subgenus Amanita includes all Amanita with inamyloid spores. Amanita section Amanita includes the species with patchy universal veil remnants, including a volva that is reduced to a series of concentric rings, and the veil remnants on the cap to a series of patches or warts. Most species in this group also have a bulbous base. Amanita section Amanita consists of A. muscaria and its close relatives, including A. pantherina (the panther cap), A. gemmata, A. farinosa, and A. xanthocephala. Modern fungal taxonomists have classified Amanita muscaria and its allies this way based on gross morphology and spore inamyloidy. Two recent molecular phylogenetic studies have confirmed this classification as natural."
+                },
+                {
+                    "title": "Distribution and habitat",
+                    "content": "Amanita muscaria is a cosmopolitan mushroom, native to conifer and deciduous woodlands throughout the temperate and boreal regions of the Northern Hemisphere, including higher elevations of warmer latitudes in regions such as Hindu Kush, the Mediterranean and also Central America. A recent molecular study proposes that it had an ancestral origin in the Siberian–Beringian region in the Tertiary period, before radiating outwards across Asia, Europe and North America. The season for fruiting varies in different climates: fruiting occurs in summer and autumn across most of North America, but later in autumn and early winter on the Pacific coast. This species is often found in similar locations to Boletus edulis, and may appear in fairy rings. Conveyed with pine seedlings, it has been widely transported into the southern hemisphere, including Australia, New Zealand, South Africa and South America, where it can be found in the southern Brazilian states of Paraná and Rio Grande do Sul."
+                },
+                {
+                    "title": "",
+                    "content": "Ectomycorrhizal, Amanita muscaria forms symbiotic relationships with many trees, including pine, oak, spruce, fir, birch, and cedar. Commonly seen under introduced trees, A. muscaria is the fungal equivalent of a weed in New Zealand, Tasmania and Victoria, forming new associations with southern beech (Nothofagus). The species is also invading a rainforest in Australia, where it may be displacing the native species. It appears to be spreading northwards, with recent reports placing it near Port Macquarie on the New South Wales north coast. It was recorded under silver birch (Betula pendula) in Manjimup, Western Australia in 2010. Although it has apparently not spread to eucalypts in Australia, it has been recorded associating with them in Portugal.Commonly found throughout the great Southern region of western Australia, it is regularly found growing on Pinus radiata"
+                },
+                {
+                    "title": "Toxicity",
+                    "content": "Amanita muscaria poisoning has occurred in young children and in people who ingested the mushrooms for a hallucinogenic experience. Occasionally it has been ingested in error, because immature button forms resemble puffballs. The white spots sometimes wash away during heavy rain and the mushrooms then may appear to be the edible"
+                },
+                {
+                    "title": "",
+                    "content": "Amanita muscaria contains several biologically active agents, at least one of which, muscimol, is known to be psychoactive. Ibotenic acid, a neurotoxin, serves as a prodrug to muscimol, with approximately 10–20% converting to muscimol after ingestion. An active dose in adults is approximately 6 mg muscimol or 30 to 60 mg ibotenic acid; this is typically about the amount found in one cap of Amanita muscaria. The amount and ratio of chemical compounds per mushroom varies widely from region to region and season to season, which can further confuse the issue. Spring and summer mushrooms have been reported to contain up to 10 times more ibotenic acid and muscimol than autumn fruitings."
+                },
+                {
+                    "title": "Symptoms",
+                    "content": "Fly agarics are known for the unpredictability of their effects. Depending on habitat and the amount ingested per body weight, effects can range from mild nausea and twitching to drowsiness, cholinergic crisis-like effects (low blood pressure, sweating and salivation), auditory and visual distortions, mood changes, euphoria, relaxation, ataxia, and loss of equilibrium (like with tetanus.) In cases of serious poisoning the mushroom causes delirium, somewhat similar in effect to anticholinergic poisoning (such as that caused by Datura stramonium), characterised by bouts of marked agitation with confusion, hallucinations, and irritability followed by periods of central nervous system depression. Seizures and coma may also occur in severe poisonings. Symptoms typically appear after around 30 to 90 minutes and peak within three hours, but certain effects can last for several days. In the majority of cases recovery is complete within 12 to 24 hours. The effect is highly variable between individuals, with similar doses potentially causing quite different reactions. Some people suffering intoxication have exhibited headaches up to ten hours afterwards. Retrograde amnesia and somnolence can result following recovery."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Amanita Rubescens",
+            "image": "fungi2.jpg",
+            "model": "AmanitaRubescens",
+            "infos": [
+                {
+                    "title": "",
+                    "content": "The blusher is the common name for several closely related species of the genus Amanita. A. rubescens or the blushing amanita, is found in Europe and eastern North America, and A. novinupta, also known as the new bride blushing amanita, is found in western North America. Both their scientific and common names are derived from the propensity of their flesh to turn pink on bruising, or cutting. The mushroom is edible and tasty, sought for in several European countries. It is readily recognizable by its pinkish color on the bottom of the stem. It is avoided by novice mushroomers as without knowledge it can be confused with deadly poisonous species."
+                },
+                {
+                    "title": "Distribution and habitat",
+                    "content": "It is common throughout much of Europe and eastern North America (in the latter region there are at least three different species that fit into the name Amanita amerirubescens) growing on poor soils as well as in deciduous and coniferous woodlands, appearing from June through to November in the UK. It has also been recorded from South Africa, where it is thought to have been accidentally introduced with trees imported from Europe. It has also been recorded from Asia  In eastern North America, Amanita rubescens is frequently parasitized by Hypomyces hyalinus. Parasitized fruiting bodies are extremely difficult to recognize unless they occur in conjunction with healthy ones, although some retain the 'blushing' characteristic of the species."
+                },
+                {
+                    "title": "Other species",
+                    "content": "Closely related species include Amanita brunneolocularis, A. orsonii, A. rubescens var. alba, and A. rubescens var. congolensis."
+                },
+                {
+                    "title": "Uses",
+                    "content": "Amanita rubescens is edible when cooked. European A. rubescens is known to contain a hemolytic protein in its raw state, which is destroyed by low pH and when is cooked; it is unknown whether North American A. rubescens and A. novinupta are similarly toxic when eaten raw."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Leccinum Scabrum",
+            "image": "fungi3.jpg",
+            "model": "LeccinumScabrum",
+            "infos": [
+                {
+                    "title": "",
+                    "content": "Leccinum scabrum, commonly known as the rough-stemmed bolete, scaber stalk, and birch bolete, is an edible mushroom in the family Boletaceae, and was formerly classified as Boletus scaber. The birch bolete is widespread in Europe, in the Himalayas in Asia, and elsewhere in the Northern Hemisphere, occurring only in mycorrhizal association with birch trees. It fruits from June to October. This mushroom is also becoming increasingly common in Australia and New Zealand where it is likely introduced."
+                },
+                {
+                    "title": "Habitat and distribution",
+                    "content": "Leccinum scabrum is a European species that has been introduced to various areas of the world, mostly appearing in urban areas. In New Zealand, it associates solely with Betula pendula."
+                },
+                {
+                    "title": "Habitat and distribution",
+                    "content": "The birch bolete is edible but considered not to be worthwhile by some guides. It can be pickled in brine or vinegar. It is used also in mixed mushroom dishes, fried or steamed. It is commonly harvested for food in Finland and Russia. A few reports in North America (New England and the Rocky Mountains) after 2009 suggest that Leccinums (birch boletes) should only be consumed with much caution."
+                },
+                {
+                    "title": "Similar species",
+                    "content": "Several different species of Leccinum mushrooms are found in mycorrhiza with birches, and can be confused by amateurs and mycologists alike. L. variicolor has a bluish stipe. L. oxydabile has firmer, pinkish flesh and a different pileus skin structure. L. melaneum is darker in color and has yellowish hues under the skin of the pileus and stipe. L. holopus is paler and whitish in all parts."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Russula Amara",
+            "image": "fungi4.jpg",
+            "model": "RussulaAmara",
+            "infos": [
+                {
+                    "title": "",
+                    "content": "Russula caerulea, commonly known as the humpback brittlegill, is a member of the genus Russula, whose members are also known as brittlegills. It is a dark vinaceous or purple-colored edible mushroom, and grows with coniferous trees in late summer and autumn. It is found in Europe and North America."
+                },
+                {
+                    "title": "Taxonomy",
+                    "content": "First described by mycologist Christian Hendrik Persoon in his 1801 work Synopsis methodica fungorum as Agaricus caeruleus, its specific epithet is the Latin caeruleus meaning 'blue'. It was transferred to the genus Russula in 1838 by the Swedish father of mycology Elias Magnus Fries. The 1927 name Russula amara by Kučera is a synonym."
+                },
+                {
+                    "title": "Similar species",
+                    "content": "Russula atropurpurea (Krombh.) Britzelm is infrequent with conifers, preferring deciduous woods, and forests. Its cap is never umbonate, but usually depressed. Russula viscida Kudrna has no umbo either, and is very rare. The cuticle of the cap hardly peels at all."
+                },
+                {
+                    "title": "Distribution and habitat",
+                    "content": "Russula caerulea appears in late summer and autumn. It is widespread in the northern temperate zones, Europe, Asia, and North America. It is probably mycorrhizal with pine trees (Pinus), on sandy soils."
+                },
+                {
+                    "title": "Edibility",
+                    "content": "This mushroom is edible, but has a bitter cap skin after chewing."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Coprinellus Micaceus",
+            "image": "fungi5.jpg",
+            "model": "CoprinellusMicaceus",
+            "infos": [
+                {
+                    "title": "",
+                    "content": "Coprinellus micaceus is a common species of mushroom-forming fungus in the family Psathyrellaceae with a cosmopolitan distribution. The fruit bodies of the saprobe typically grow in clusters on or near rotting hardwood tree stumps or underground tree roots. Depending on their stage of development, the tawny-brown mushroom caps may range in shape from oval to bell-shaped to convex, and reach diameters up to 3 cm (1+1⁄4 in). The caps, marked with fine radial or linear grooves that extend nearly to the center, rest atop whitish stipes up to 10 cm (4 in) long. In young specimens, the entire cap surface is coated with a fine layer of reflective mica-like cells that provide the inspiration for both the mushroom's species name and the common names mica cap, shiny cap, and glistening inky cap. Although small and with thin flesh, the mushrooms are usually bountiful, as they typically grow in dense clusters. A few hours after collection, the gills will begin to slowly dissolve into a black, inky, spore-laden liquid—an enzymatic process called autodigestion or deliquescence. The fruit bodies are edible before the gills blacken and dissolve, and cooking will stop the autodigestion process."
+                },
+                {
+                    "title": "Edibility",
+                    "content": "Coprinellus micaceus is an edible species, and cooking inactivates the enzymes that cause autodigestion or deliquescence—a process that can begin as soon as one hour after collection. It is considered ideal for omelettes, and as a flavor for sauces, although it is 'a very delicate species easily spoiled by overcooking'. The flavour is so delicate that it is easy to overpower and hide with almost anything. The fungus also appeals to fruit flies of the genus Drosophila, who frequently use the fruit bodies as hosts for larvae production."
+                },
+                {
+                    "title": "",
+                    "content": "A study of the mineral contents of various edible mushrooms found that C. micaceus contained the highest concentration of potassium in the 34 species tested, close to half a gramme of potassium per kilogram of mushroom. Because the species can bioaccumulate detrimental heavy metals like lead and cadmium, it has been advised to restrict consumption of specimens collected from roadsides or other collection sites that may be exposed to or contain pollutants."
+                },
+                {
+                    "title": "Similar species",
+                    "content": "The edible Coprinellus bisporus is nearly identical but lacks the yellowish cap granules and only has two spores per basidium. The scaly inky cap (Coprinus variegatus = Coprinus quadrifidus) has a grayish-brown cap with dull white to brownish scales; its odor is disagreeable. The trooping crumble cap (Coprinellus disseminatus, edible) has smaller, yellow-brown to grey-brown caps and white gills that turn black but do not dissolve away; it always grows in large clusters on rotting wood (sometimes buried wood). Coprinus atramentarius is a larger, gray species that grows in dense clusters on stumps or on the ground from buried wood, lacks glistening particles on the cap, and the cap and gills dissolve at maturity. Coprinellus radians develops singly or in clumps on wood, from a tufted mat of coarse yellow-orange mycelium. Coprinellus truncorum is also covered with glistening granules and is said to be almost indistinguishable from C. micaceus in the field; microscopy is needed to tell the difference, as C. truncorum has ellipsoid spores with a rounded germ pore, compared to the shield-shaped (mitriform) spores with truncated germ pores of C. micaceus. One study suggests that compared to C. truncorum, C. micaceus is browner in the center of the cap (rather than grayish) and has a greater tendency to grow in clusters; more molecular evidence is required to determine if the two taxa are genetically identical. C. flocculosus is another similar species."
+                },
+                {
+                    "title": "Habitat and distribution",
+                    "content": "Fruit bodies are commonly found growing in dense clusters, but can also be found growing singly or in small clumps, especially in forested areas. In North America, C. micaceus is one of the first edible mushrooms to appear in the spring, and fruits from April to September. In Europe, it fruits from May to December. Although it can grow at any time of the year, it is more prevalent during the spring and fall, coinciding with the higher humidity resulting from spring and autumn rains. A study of air quality conducted in the city of Santiago de Compostela in the Iberian Peninsula, concluded that most 'Coprinus' spores present in the atmosphere belonged to C. micaceus, and that the number of spores went up with increased humidity and rainfall, but decreased with greater temperatures. The species is known for reappearing with successive fruitings at the same location. In one case, a total of 38 lb (17.2 kg) of fresh mushrooms were collected from one elm stump in 10 successive crops over a spring and summer.[55]"
+                },
+                {
+                    "title": "",
+                    "content": "Coprinellus micaceus has a cosmopolitan distribution, and has been collected in northern Africa, South Africa, Europe (including Turkey), North America (as far north as Alaska), the Hawaiian islands, South America, India, Australia, New Zealand, and Japan. Phylogenetic analysis of rDNA sequences from specimens collected in southeastern Asia and Hawaii show that the Hawaiian species form a distinct clade with little genetic diversity compared to Asian populations; this suggests that the Hawaiian populations have been introduced relatively recently and have not had much time to develop genetic variation. One study suggests that in South Africa, where C. micaceus is rare, it has been frequently confused with the similar-appearing C. truncorum, a more common species in that region. A similar inference has been raised about North American species."
+                },
+                {
+                    "title": "Bioactive compounds",
+                    "content": "Research into the natural product chemistry of Coprinellus micaceus has revealed the presence of several chemical compounds unique to the species. Micaceol is a sterol with 'modest' antibacterial activity against the pathogens Corynebacterium xerosis and Staphylococcus aureus. The compound (Z,Z)-4-oxo-2,5-heptadienedioic acid has inhibitory activity against glutathione S-transferase, an enzyme that has been implicated in the resistance of cancer cells against chemotherapeutic agents, especially alkylating drugs. A 2003 study did not find any antibacterial activity in this species. A 1962 publication reported the presence of the biologically active indole compound tryptamine in C. micaceus, although the concentration was not determined. The fruit bodies additionally produce a variety of pigment compounds known as melanins—complex chemical polymers that contribute to the formation of soil humus after the fruit bodies have disintegrated. C. micaceus has been found to be devoid of the toxin coprine, the disulfiram-mimicking chemical found in Coprinopsis atramentaria that causes illness when consumed simultaneously with alcohol."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Russula Nigricans",
+            "image": "fungi6.jpg",
+            "model": "RussulaNigricans",
+            "infos": [
+                {
+                    "title": "",
+                    "content": "Russula nigricans, commonly known as the blackening brittlegill or blackening russula, is a gilled mushroom found in woodland in Europe. It gains both its common and scientific name from its propensity to turn black from cutting or bruising."
+                },
+                {
+                    "title": "Taxonomy",
+                    "content": "It is placed in the Compactae group, subsection Nigricantinae by Bon. It was first described by the French mycologist Pierre Bulliard in 1798 as Agaricus nigricans, before gaining its current binomial name from the father of mycology, the Swedish mycologist Elias Magnus Fries. Its specific epithet is the Latin nigricans 'blackening'."
+                },
+                {
+                    "title": "Description",
+                    "content": "This is a large member of the genus Russula, and it has a cap that is dirty white when young, but swiftly turns brown, and then black on aging. It measures 5–30 cm (2–12 in) in diameter. There is usually a large depression in the centre of mature caps, which are three quarter peeling. The stem is white, firm, and straight, measuring 5–12 cm (2–5 in) long and 2–5 cm (1–2 in) wide; it too blackens with age. The gills are off-white initially, very widely spaced, and are adnate. These turn red; then grey, and finally black, when bruised. The flesh, which has a fruity smell, when cut turns pale Indian red, and then grey, and black within 20 minutes. The spore print is white, and the warty oval spores measure 7–8 x 6–7 μm. Old specimens are sometimes parasitised by fungi of the genus Asterophora or Nyctalis, in particular the species N. parasitica and N. asterophora (the pick-a-back toadstool)."
+                },
+                {
+                    "title": "Distribution and habitat",
+                    "content": "Russula nigricans appears in late summer and autumn in both deciduous and coniferous woodland across Britain, Northern Europe, and at least the East Coast of North America."
+                },
+                {
+                    "title": "Toxicity",
+                    "content": "The species contains toxins which could cause gastrointestinal upset."
+                },
+                {
+                    "title": "Similar species",
+                    "content": "Species that also bruise red then black include Russula acrifolia and R. dissimulans. Russula albonigra has closer gills and is far less common. It bruises directly to black, lacking the red intermediary phase."
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Pholiota Gummosa",
+            "image": "fungi7.jpg",
+            "model": "PholiotaGummosa",
+            "infos": [
+                {
+                    "title": "",
+                    "content": "Pholiota gummosa, commonly known as the sticky scalycap, is a common species of mushroom-forming fungus in the family Strophariaceae. It is found in Europe and North America, where it grows as a saprotroph on the rotting wood of deciduous trees, including trunks and roots. It can also grow on wood buried near the surface, making it seem as if it is fruiting in grass."
+                },
+                {
+                    "title": "Taxonomy",
+                    "content": "The fungus was originally described by Wilhelm Gottfried Lasch in 1828, as a member of the genus Agaricus. After being shuffled to several different genera in its taxonomic history, it was transferred to Pholiota by Rolf Singer in 1951."
+                }
+                ,
+                {
+                    "title": "Description",
+                    "content": "The fungus makes fruitbodies with straw-yellow to beige caps measuring 2–6 cm (0.8–2.4 in) in diameter. The crowded gills on the cap underside have an adnate attachment to the stipe. Initially pale yellow, they turn brownish in age as the spores mature. The mushroom makes a brown spore print. Spores are smooth, thin-walled, somewhat bean-shaped (subphaseoliform), and measure 6–8 by 3.5–4.5 µm."
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Lycoperdon Perlatum",
+            "image": "fungi8.jpg",
+            "model": "LycoperdonPerlatum",
+            "infos": [
+                {
+                    "title": "",
+                    "content": "Lycoperdon perlatum, popularly known as the common puffball, warted puffball, gem-studded puffball, wolf farts or the devil's snuff-box, is a species of puffball fungus in the family Agaricaceae. A widespread species with a cosmopolitan distribution, it is a medium-sized puffball with a round fruit body tapering to a wide stalk, and dimensions of 1.5 to 6 cm (5⁄8 to 2+3⁄8 in) wide by 3 to 10 cm (1+1⁄8 to 3+7⁄8 in) tall. It is off-white with a top covered in short spiny bumps or 'jewels', which are easily rubbed off to leave a netlike pattern on the surface. When mature it becomes brown, and a hole in the top opens to release spores in a burst when the body is compressed by touch or falling raindrops."
+                },
+                {
+                    "title": "Taxonomy",
+                    "content": "The species was first described in the scientific literature in 1796 by mycologist Christiaan Hendrik Persoon. Synonyms include Lycoperdon gemmatum (as described by August Batsch in 1783); the variety Lycoperdon gemmatum var. perlatum (published by Elias Magnus Fries in 1829); Lycoperdon bonordenii (George Edward Massee, 1887); and Lycoperdon perlatum var. bonordenii (A.C. Perdeck, 1950). L. perlatum is the type species of the genus Lycoperdon. Molecular analyses suggest a close phylogenetic relationship with L. marginatum. The specific epithet perlatum is Latin for 'widespread'. It is commonly known as the common puffball, the gem-studded puffball (or gemmed puffball), the warted puffball, or the devil's snuff-box; Samuel Frederick Gray called it the pearly puff-ball in his 1821 work A Natural Arrangement of British Plants. Because some indigenous peoples believed that the spores caused blindness, the puffball has some local names such as 'blindman's bellows' and 'no-eyes'."
+                },
+                {
+                    "title": "Edibility",
+                    "content": "Lycoperdon perlatum is considered to be a good edible mushroom when young, when the gleba is still homogeneous and white. They have been referred to as 'poor man's sweetbread' due to their texture and flavor. The fruit bodies can be eaten after slicing and frying in batter or egg and breadcrumbs, or used in soups as a substitute for dumplings. As early as 1861, Elias Fries recommended them dried and served with salt, pepper, and oil. The puffballs become inedible as they mature: the gleba becomes yellow-tinged then finally develops into a mass of powdery olive-green spores. L. perlatum is one of several edible species sold in markets in the Mexican states of Puebla and Tlaxcala. The fruit bodies are appealing to other animals as well: the northern flying squirrel (Glaucomys sabrinus) includes the puffball in their diet of non-truffle fungi, while the 'puffball beetle' Caenocara subglobosum uses the fruit body for shelter and breeding. Nutritional analysis indicates that the puffballs are a good source of protein, carbohydrates, fats, and several micronutrients. The predominant fatty acids in the puffball are linoleic acid (37% of the total fatty acids), oleic acid (24%), palmitic acid (14.5%), and stearic acid (6.4%)."
+                },
+                {
+                    "title": "",
+                    "content": "The immature 'buttons' or 'eggs' of deadly Amanita species can be confused with puffballs. This can be avoided by slicing fruit bodies vertically and inspecting them for the internal developing structures of a mushroom, which would indicate the poisonous Amanita. Additionally, amanitas will generally not have 'jewels' or a bumpy external surface. The spores' surfaces have many microscopic spines and can cause severe irritation of the lung (lycoperdonosis) when inhaled. This condition has been reported to afflict dogs that play or run where the puffballs are present."
+                },
+                {
+                    "title": "Similar species",
+                    "content": "There are several other puffball species with which L. perlatum might be confused. L. nettyanum, found in the Pacific Northwest region of the United States, is covered in granular patches, but these granules adhere more strongly to the surface than those of L. perlatum. L. pyriforme lacks prominent spines on the surface, and grows on rotting wood—although if growing on buried wood, it may appear to be terrestrial. The widely distributed and common L. umbrinum has spines that do not leave scars when rubbed off, a gleba that varies in color from dark brown to purple-brown at maturity, and a purple-tinged base. The small and rare species L. muscorum grows in deep moss. L. peckii can be distinguished from L. pyriforme by the lavender-tinged spines it has when young. L. rimulatum has purplish spores, and an almost completely smooth exoperidium. L. excipuliforme is larger and grayer, and, in mature individuals, the upper portion of its fruit body breaks down completely to release its spores. In the field, L. marginatum is distinguished from L. perlatum by the way in which the spines are shed from the exoperidium in irregular sheets."
+                },
+                {
+                    "title": "Ecology and distribution",
+                    "content": "A saprobic species, Lycoperdon perlatum grows solitarily, scattered, or in groups or clusters on the ground. It can also grow in fairy rings. Typical habitats include woods, grassy areas, and along roads. It has been reported from Pinus patula plantations in Tamil Nadu, India. The puffball sometimes confuses golfers because of its resemblance to a golf ball when viewed from a distance."
+                },
+                {
+                    "title": "",
+                    "content": "A widespread species with an almost cosmopolitan distribution, it has been reported from Africa (Kenya, Rwanda, Tanzania), Asia (China, Himalayas, Japan, southern India Iran), Australia, Europe, New Zealand, and South America (Brazil). It has been collected from subarctic areas of Greenland, and subalpine regions in Iceland. In North America, where it is considered the most common puffball species, it ranges from Alaska to Mexico, although it is less common in Central America. The species is popular on postage stamps, and has been depicted on stamps from Guinea, Paraguay, Romania, Sierra Leone, and Sweden. The puffball bioaccumulates heavy metals present in the soil, and can be used as a bioindicator of soil pollution by heavy metals and selenium. In one 1977 study, samples collected from grassy areas near the side of an interstate highway in Connecticut were shown to have high concentrations of cadmium and lead. L. perlatum biomass has been shown experimentally to remove mercury ions from aqueous solutions, and is being investigated for potential use as a low-cost, renewable, biosorptive material in the treatment of water and wastewater containing mercury.[55]"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Cantharellus Cibarius",
+            "image": "fungi9.jpg",
+            "model": "nomodel",
+            "infos": [
+                {
+                    "title": "",
+                    "content": "Cantharellus cibarius (Latin: cantharellus, 'chanterelle'; cibarius, 'culinary') is a species of golden chanterelle mushroom in the genus Cantharellus. It is also known as girolle (or girole). It grows in Europe from Scandinavia to the Mediterranean Basin, mainly in deciduous and coniferous forests. Due to its characteristic color and shape, it is easy to distinguish from mushrooms with potential toxicity that discourage human consumption. A commonly eaten and favored mushroom, the chanterelle is typically harvested from late summer to late fall in its European distribution."
+                },
+                {
+                    "title": "",
+                    "content": "Chanterelles are used in many culinary dishes, and can be preserved by either drying or freezing. An oven should not be used when drying it because can result in the mushroom becoming bitter."
+                },
+                {
+                    "title": "Taxonomy",
+                    "content": "At one time, all yellow or golden chanterelles in North America had been classified as Cantharellus cibarius. Using DNA analysis, they have since been shown to be a group of related species known as the Cantharellus cibarius group or species complex, with C. cibarius sensu stricto restricted to Europe. In 1997, the Pacific golden chanterelle (C. formosus) and C. cibarius var. roseocanus were identified, followed by C. cascadensis in 2003 and C. californicus in 2008."
+                },
+                {
+                    "title": "Description",
+                    "content": "The mushroom is easy to detect and recognize in nature. The body is 3–10 centimetres (1–4 inches) wide and 5–10 cm (2–4 in) tall. The color varies from yellow to dark yellow. Red spots will appear on the cap of the mushroom if it is damaged. Chanterelle mushrooms have a faint aroma and flavour of apricots. Care should be taken not to confuse this species with the deadly Omphalotus illudens."
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Amanita Excelsa",
+            "image": "fungi10.jpg",
+            "model": "AmanitaExcelsa",
+            "infos": [
+                {
+                    "title": "",
+                    "content": "Amanita excelsa var. spissa is a variety of basidiomycete fungus of the genus Amanita. This large, grey to brown-capped fungus has a very variable appearance but is commonly encountered in coniferous and deciduous forests in Europe and North America. It is sometimes referred to by the common name grey spotted Amanita."
+                },
+                {
+                    "title": "Description",
+                    "content": "The cap is around 10 cm in diameter when fully expanded, and is various shades of brown or brown/grey, sometimes washing off to buff. Younger specimens have grey veil remnants often in quite large; flat patches, but these are usually removed later by the weather. The mature stem is usually fairly long, and has a bulbous base which is without a discernible volva, having just several flaky ring zones instead. It is marked above the ring with vertical lines. The ring is large and white, and also has lines. The gills are crowded; white, and have a slight decurrent tooth. The flesh is white; smells of radish, and turns purple when H2SO4 is applied."
+                },
+                {
+                    "title": "Distribution and habitat",
+                    "content": "Amanita excelsa var. spissa occurs in Britain, Europe, and eastern North America in summer, and autumn. Growing with both broad leaved and coniferous trees. A. excelsa var. spissa is considered by some authors to be the more common variety of Amanita excelsa."
+                },
+                {
+                    "title": "Edibility",
+                    "content": "Pronounced edible by some, but probably best avoided in case of confusion with A. pantherina."
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Clavulina Cristata",
+            "image": "fungi11.jpg",
+            "model": "ClavulinaCristata",
+            "infos": [
+                {
+                    "title": "",
+                    "content": "Clavulina cristata, commonly known as the white coral fungus or the crested coral fungus, is a white- or light-colored edible coral mushroom present in temperate areas of the Americas and Europe. It is the type species of the genus Clavulina."
+                },
+                {
+                    "title": "",
+                    "content": "The commonly used species name cristata was coined in 1790 by Danish mycologist Theodor Holmskjold (as Ramaria cristata). However, Linnaeus described apparently the same fungus as Clavaria coralloides in Species plantarum in 1753. Therefore, according to the International Code of Nomenclature for algae, fungi, and plants, the name Clavulina coralloides should be used in preference to Clavulina cristata, although the latter name is in more common use."
+                },
+                {
+                    "title": "Description",
+                    "content": "Fruit bodies, which are generally white- to cream-colored, can be up to 8 centimetres (3+1⁄8 in) tall, and 2–4 cm (3⁄4–1+5⁄8 in) broad. The coral 'arms' are sparingly branched (3–4 times), 2–4 mm wide, smooth, and sometimes wrinkled longitudinally. The tips are cristate, having small pointed projections, and will often darken with age or in dry weather. The fruit bodies have no distinctive odor, and a mild taste. The fruit bodies may have a darker color either due to natural variation (whereby the appearance of this species may approach and be confused with C. cinerea) or because of infection by a microscopic fungus, Helminthosphaeria clavariarum."
+                },
+                {
+                    "title": "Habitat",
+                    "content": "Clavulina cristata is found growing solitary or in clusters on the ground (sometimes on rotten wood) in both coniferous and hardwood forests. It is a common mushroom, and typically fruits from late summer to winter."
+                },
+                {
+                    "title": "Edibility",
+                    "content": "This fungus is edible, but the tough flesh and insubstantial fruit bodies make it unappetizing to some individuals. It is considered excellent by some."
+                },
+                {
+                    "title": "Lookalikes",
+                    "content": "Some other coral fungi have macroscopic and microscopic features similar to Clavulina cristata, making identification confusing. Clavulina rugosa is unbranched or sparingly branched. Clavulina cinerea is usually darker in color. Ramaria stricta has parallel branches and grows on wood."
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Laetiporus Sulphureus",
+            "image": "fungi12.jpg",
+            "model": "LaetiporusSulphureus",
+            "infos": [
+                {
+                    "title": "",
+                    "content": "Laetiporus sulphureus is a species of bracket fungus (fungi that grow on trees) found in Europe and North America. Its common names are crab-of-the-woods, sulphur polypore, sulphur shelf, and chicken-of-the-woods. Its fruit bodies grow as striking golden-yellow shelf-like structures on tree trunks and branches. Old fruitbodies fade to pale beige or pale grey. The undersurface of the fruit body is made up of tubelike pores rather than gills. Laetiporus sulphureus is a saprophyte and occasionally a weak parasite, causing brown cubical rot in the heartwood of trees on which it grows. Unlike many bracket fungi, it is edible when young, although adverse reactions have been reported."
+                },
+                {
+                    "title": "Taxonomy and phylogenetics",
+                    "content": "Laetiporus sulphureus was first described as Boletus sulphureus by French mycologist Pierre Bulliard in 1789. It has had many synonyms and was finally given its current name in 1920 by American mycologist William Murrill. Laetiporus means 'with bright pores' and sulphureus means 'the colour of sulphur'."
+                },
+                {
+                    "title": "",
+                    "content": "Investigations in North America have shown that there are several similar species within what has been considered L. sulphureus and that the true L. sulphureus may be restricted to regions east of the Rocky Mountains. Phylogenetic analyses of ITS and nuclear large subunit and mitochondrial small subunit rDNA sequences from North American collections have delineated five distinct clades within the core Laetiporus clade. Sulphureus clade I contains white-pored L. sulphureus isolates, while Sulphureus clade II contains yellow-pored L. sulphureus isolates."
+                },
+                {
+                    "title": "Description",
+                    "content": "The fruiting body emerges directly from the trunk of a tree and is initially knob-shaped, but soon expands to fan-shaped shelves, typically growing in overlapping tiers. It is sulphur-yellow to bright orange in color and has a suedelike texture. Old fruitbodies fade to tan or whitish. Each shelf may be anywhere from 5 to 60 centimetres (2 to 23+1⁄2 inches) across and up to 4 cm (1+1⁄2 in) thick. The fertile surface is sulphur-yellow with small pores or tubes and produces a white spore print. When fresh, the flesh is succulent with a strong fungal aroma and exudes a yellowish, transparent juice, but soon becomes dry and brittle."
+                },
+                {
+                    "title": "Distribution and habitat",
+                    "content": "Laetiporus sulphureus is widely distributed across Europe and North America, although its range may be restricted to areas east of the Rockies. It grows on dead or mature hardwoods and has been reported from a very wide variety of host trees, such as Quercus, Prunus, Pyrus, Populus, Salix, Robinia, and Fagus, occasionally also from conifers, from August to October or later, sometimes as early as June. In the Mediterranean region, this species is usually found on Ceratonia and Eucalyptus. It can usually be found growing in clusters."
+                },
+                {
+                    "title": "Parasitism",
+                    "content": "The fungus causes brown cubical rot of heartwood in the roots, tree base and stem. After infection, the wood is at first discolored yellowish to red but subsequently becomes reddish-brown and brittle. At the final stages of decay, the wood can be rubbed like powder between the fingers."
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Ischnoderma Benzoinum",
+            "image": "fungi13.jpg",
+            "model": "IschnodermaBenzoinum",
+            "infos": [
+                {
+                    "title": "",
+                    "content": "Ischnoderma is a genus of polypore fungi. Species in the genus have dark brown and tomentose fruit bodies that become darker brown to black and smooth when mature. The genus, widespread in temperate regions, contains an estimated 10 species."
+                },
+                {
+                    "title": "Taxonomy",
+                    "content": "Ischnoderma was circumscribed by Finnish mycologist Petter Adolf Karsten in 1879. Although Ischnoderma has traditionally been classified in the family Fomitopsidaceae, Phylogenetic studies have demonstrated its isolated phylogenetic position in the Polyporales. Justo and colleagues suggest that Ischnoderma would be better placed as the type genus of Ischnodermataceae, a family originally proposed by Walter Jülich in 1981. The generic name Ischnoderma combines the Ancient Greek words ισχνός ('dry') and δέρμα ('skin')."
+                },
+                {
+                    "title": "Chemistry",
+                    "content": "The type species, I. resinosum, is used in mushroom dyeing to produce various shades of brown. It has been shown to efficiently decolorize several structurally different synthetic dyes: amaranth, Remazol Brilliant Blue R, Phthalocyanine Blue BN, and Poly R-478. Ischnoderma benzoinum has antiviral activity against type A influenza virus of birds and humans."
+                },
+                {
+                    "title": "Uses",
+                    "content": "Young, fleshy specimens of both I. resinosum and I. benzoinum may be cooked and eaten, but the species become hard and inedible later in life."
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Scleroderma Citrinum",
+            "image": "fungi14.jpg",
+            "model": "nomodel",
+            "infos": [
+                {
+                    "title": "",
+                    "content": "Scleroderma citrinum, commonly known as the common earthball, pigskin poison puffball, or common earth ball, is the most common species of earthball in the UK and occurs widely in woods, heathland and in short grass from autumn to winter. Scleroderma citrinum has two synonyms, Scleroderma aurantium (Vaill.) and Scleroderma vulgare Horn."
+                },
+                {
+                    "title": "",
+                    "content": "Earthballs are superficially similar to, and considered look-alikes of, the edible puffball (particularly Apioperdon pyriforme), but whereas the puffball has a single opening on top through which the spores are dispersed, the earthball just breaks up to release the spores. Moreover, Scleroderma citrinum has much firmer flesh and a dark gleba (interior) much earlier in development than puffballs. Scleroderma citrinum has no stem but is attached to the soil by mycelial cords. The peridium, or outer wall, is thick and firm, usually ochre yellow externally with irregular warts."
+                },
+                {
+                    "title": "",
+                    "content": "The earthball may be parasitized by Pseudoboletus parasiticus. Scleroderma citrinum can be mistaken with truffles by inexperienced mushroom hunters. Ingestion of Scleroderma citrinum can cause gastrointestinal distress in humans and animals, and some individuals may experience lacrimation, rhinitis and rhinorrhea, and conjunctivitis from exposure to its spores. Pigments found in the fruiting body of Scleroderma citrinum Pers. are sclerocitrin, norbadione A, xerocomic acid, and badione A."
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Spathularia Flavida",
+            "image": "fungi15.jpg",
+            "model": "nomodel",
+            "infos": [
+                {
+                    "title": "",
+                    "content": "Spathularia flavida, commonly known as the yellow earth tongue, the yellow fan, or the fairy fan, is an ascomycete fungus found in coniferous forests of Asia, Europe and North America. It produces a small, fan- or spoon-shaped fruit body with a flat, wavy or lobed cream to yellow colored 'head' raised on a white to cream stalk. The height is usually approximately 2–5 cm (3⁄4–2 in), and up to 8 cm (3+1⁄8 in). The fungus fruits on the ground in mosses, forest duff or humus, and fruit bodies may occur singly, in large groups, or in fairy rings. The spores produced by the fungus are needle-like, and up to 95 micrometres (0.0037 inches) long. Several varieties have been described that differ largely in their microscopic characteristics. S. flavida has been described by authorities variously as inedible, of unknown edibility, or edible but tough."
+                },
+                {
+                    "title": "Taxonomy and naming",
+                    "content": "The species was first described in 1774 by the German botanist Jacob Christian Schäffer. Schaeffer gave it the binomial Elvella clavata, and called it Der keulenförmige Faltenschwamm ('the club-shaped wrinkled sponge') in the vernacular. In 1794, Christian Hendrik Persoon published Spathularia flavida as a nomen novum (new replacement name), as Schaeffer's published name was not legitimate. Elias Fries sanctioned this name in the first edition of his Systema Mycologicum (1821). According to the taxonomical database MycoBank, additional synonyms include Boletus elvela as defined by August Johann Georg Karl Batsch in 1783, and Spathularia clavata published by Pier Andrea Saccardo in 1889. In a 1955 publication, American mycologist Edwin Butterworth Mains considered Charles Horton Peck's 1903 Mitruliopsis flavida to be the same species as S. flavida. The mushroom is commonly known as the 'yellow earth tongue', 'yellow fan', of 'fairy fan'. Samuel Gray called it the 'yellowish spatula-stool' in his 1821 Natural Arrangement of British plants. The specific epithet flavida is Latin for 'blonde' or 'golden yellow'."
+                },
+                {
+                    "title": "Similar species",
+                    "content": "Spathularia flavida may be distinguished from the velvet-foot fairy fan (Spathulariopsis velutipes) by differences in the stem: S. velutipes is fuzzy and brown rather than smooth and yellowish. The fuzziness is a result of a thin layer of intertwined hyphae that cover the stem, which project short hyphae outward from the surface. The closely related species S. neesi has an ochre color, spores that measure 60–80 by 1.5–2 µm, and paraphyses that are branched on the upper parts. Neolecta irregularis is roughly similar in appearance to S. flavida, but lacks a sharply differentiated, spoon-shaped head, has a stem lighter in color than the head, and microscopically, has much smaller oval to elliptical spores that measure 5.5–8.5 by 3–4 µm. Another yellowish earth-tongue fungus, Microglossum rufum, has a well-defined oval to spoon-shaped head, and sausage- to spindle-shaped spores that are 18–38 by 4–6 µm."
+                },
+                {
+                    "title": "Ecology, habitat and distribution",
+                    "content": "The fruit bodies grow scattered or in groups on forest duff or humus under conifers, summer and fall, and may grow in rings or arcs. Thought to be a saprobic species (that is, obtaining nutrients from dead or decomposing organic matter), it has also been found on rotten wood. The fungus is able to protect itself from mycophagy by the springtail Ceratophysella denisana, a common mushroom feeder, by releasing repellent odorous compounds when it is injured. A cosmopolitan and widespread species, S. flavida is common in temperate regions such as the Pacific Northwest region of North America, extending north to Alaska; it is, however, unknown in Mexico. In Europe, it has been collected from Britain, Germany, Spain, Austria, Belgium, Scandinavia, and Italy; in Asia, it has been reported from India Japan, and Turkey. Spathularia flavida is considered a protected species in Slovakia. One field guide says of this species, 'that one is apt to see [it] while down on the ground looking for something else.'"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Xylaria Polymorpha",
+            "image": "fungi16.jpg",
+            "model": "nomodel",
+            "infos": [
+                {
+                    "title": "",
+                    "content": "Xylaria polymorpha, commonly known as dead man's fingers, is a saprobic fungus. It is a common inhabitant of forest and woodland areas, usually growing from the bases of rotting or injured tree stumps and decaying wood. It has also been known to colonize substrates like woody legume pods, petioles, and herbaceous stems. It is characterized by its elongated upright, clavate, or strap-like stromata poking up through the ground, much like fingers. The genus Xylaria contains about 100 species of cosmopolitan fungi. Polymorpha means 'many forms'. As its name suggests, it has a very variable but often club-shaped fruiting body (stroma) resembling burned wood. Often this fungus is found with a multitude of separate 'digits' but at times the individual parts will be fused together."
+                },
+                {
+                    "title": "",
+                    "content": "Belonging to the phylum of fungus known as Ascomycetes (division Mycota) known as the sac fungi, they are characterized by a saclike structure, the ascus, which contains anything from four to eight ascospores in the sexual stage. The sac fungi are separated into subgroups based on whether asci arise singly or are borne in one of several types of fruiting structures, or ascocarps, and on the method of discharge of the ascospores. Many ascomycetes are plant pathogens, some are animal pathogens, a few are edible mushrooms, and many live on dead organic matter (as saprobes). The largest and most commonly known ascomycetes include the morel and the truffle, however, X. polymorpha is an inedible variety."
+                },
+                {
+                    "title": "",
+                    "content": "The dark fruiting body (often black or brown, but sometimes shades of blue/green) is white on the inside, with a blackened dotted area all around. This blackened surrounding area is made up of tiny structures called perithecia. The perithecia hold a layer of asci which contain the ascospores. The asci elongate into the ostiole, and discharge the ascospores outward. The spore distribution is a lengthy process, sometimes taking several months to complete this part of the life cycle, this is not a common trait amongst fungi, as is normally a much swifter process. In springtime this fungus often produces a layer of white or bluish asexual spores called conidia, which grow on its surface and surrounding area."
+                }
+            ]
+        }
+    ],
+    "fun-facts": [
+        {
+            "title": "Some Mushrooms Glow in the Dark",
+            "content": "Scientists know of around eighty different species of fungi that glow in the dark and are constantly discovering new species. These mushrooms glow so brightly that the locals call them “electric mushrooms” and use them as natural torches. They use these insects to spread their spores to new locations helping the species survive.",
+            "image": "mellea.jpg",
+            "id": 1
+        },
+        {
+            "title": "Fungi Allow Trees to Talk to Each Other",
+            "content": "Mycorrhizal fungi have a symbiotic relationship with host trees and plants. The fungi interact with the plant’s roots and provide nutrients, getting simple sugars in return. But, the fungi’s mycelial network also facilitates the sharing of nutrients and information between plants and trees of different species. In 1997 Prof Suzanne Simard realized that trees were talking to each other using mycorrhizal networks and came up with the term “Wood Wide Web.” The vast networks of mycelium allow trees to share nutrients and warn each other about droughts, pests and diseases.",
+            "image": "noimage",
+            "id": 2
+        },
+        {
+            "title": "There’s a Mushroom That Devours Itself When Picked",
+            "content": "Shaggy ink cap mushrooms, also called a shaggy mane or lawyers wig, are delicious when picked while they’re still in the button stage with white gills. But you’ll need to cook them quickly. When shaggy ink caps mature, their gills turn pink and fill with a black liquid containing spores. This black goo drips to the ground and spreads the spores. Once the mushroom has dispersed the spores, it uses auto-digestion to devour itself. Picking a shaggy ink cap triggers auto-digestion, and you usually have 24 hours to use them before they become an inedible black mess.",
+            "image": "comatus.jpg",
+            "id": 3
+        },
+        {
+            "title": "Scientists Have Classified 2,189 Mushrooms as Edible",
+            "content": "An edible mushroom is a mushroom that’s safe and suitable to eat. But, it’s not always easy to confirm a mushroom’s edibility, and there’s often confusion about which species are safe to consume. Conflicting reports of reactions to mushrooms and people who are more allergic than others cause concern, and it’s always better to be safe than sorry. According to a recent evidence-based mushroom classification system, there are 2189 edible mushrooms. Of these, 2006 are safe to eat, and 183 need pre-treatment to make them safe to eat.",
+            "image": "noimage",
+            "id": 4
+        },
+        {
+            "title": "The Death Cap Mushroom is One of The Deadliest Organisms on Earth",
+            "content": "You can find these deadly mushrooms throughout Europe and the United States. Half a death cap mushroom (Amanita phalloides) contains enough toxin to kill an adult. They closely resemble some species of edible mushrooms and have been described as being large and meaty, with a delicious smell and taste. The amatoxins in death cap mushrooms can withstand cooking temperatures, and when eaten, they quickly damage cells throughout the body. Within 12 hours, the amatoxins cause violent abdominal pain, vomiting, diarrhea, and intense thirst. And, within 72 hours, severe liver damage results, leading to a coma or death.",
+            "image": "phalloide.jpg",
+            "id": 5
+        },
+        {
+            "title": "More Than 350 Million Years Ago There Were Giant Mushrooms on Earth",
+            "content": "More than 350 million years ago, when all land plants were only a few feet high, towering mushrooms 24 ft (7.3 m) tall and 3 ft (90 cm) wide dotted the landscape. Chemical analysis of a fossil found in Saudi Arabia shows that the 20 ft (6 m) tall organism was a fungus that became extinct more than 350 million years ago. Fossils of these organisms, known as Prototaxites, were first discovered by a Canadian, John William Dawson, in 1859. But no one could figure out what the giant spires were. Until 2007 when a study concluded the spires were a fungus, some type of gigantic mushroom. But not everyone is convinced, as scientists still find it difficult to imagine such an enormous mushroom.",
+            "image": "noimage",
+            "id": 6
+        },
+        {
+            "title": "Ancient Egyptians Reserved Mushrooms For Royalty",
+            "content": "In hieroglyphics from over 4600 years ago, ancient Egyptians referred to mushrooms as plants of immortality and believed they were a gift from the God Osiris. They were so revered that commoners were not allowed to touch them, and only royalty ate mushrooms.",
+            "image": "egypt.jpg",
+            "id": 7
+        }
+    ]
+}

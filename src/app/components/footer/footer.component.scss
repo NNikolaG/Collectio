@@ -1,0 +1,53 @@
+.container {
+    padding: 50px;
+    margin-top: 50px;
+    height: 40vh;
+
+    h1 {
+        font-family: 'Bagerich';
+        font-size: 3rem;
+    }
+
+    ul {
+        padding: 0px;
+
+        li {
+            display: inline;
+        }
+
+        justify-content: flex-end;
+    }
+
+    a {
+        display: inline;
+        color: black;
+        text-decoration: underline;
+    }
+
+    .copy {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+        a {
+            text-decoration: none;
+        }
+
+        p {
+            margin-top: 30px;
+        }
+
+        .navi {
+            width: 100%;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+
+        h1,
+        ul,
+        p {
+            text-align: center !important;
+        }
+    }
+}

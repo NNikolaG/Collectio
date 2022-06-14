@@ -1,0 +1,12 @@
+{
+    "/api/*": {
+        "target": "https://thefungiapi20220521195926.azurewebsites.net",
+        "secure": false,
+        "logLevel": "info"
+    },
+	"/myotherapp/*": {
+        "target": "http://localhost:4200",
+        "secure": false,
+        "logLevel": "info"
+    }
+}

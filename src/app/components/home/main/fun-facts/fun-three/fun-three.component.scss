@@ -1,0 +1,19 @@
+.row {
+    padding: 50px 0px;
+}
+
+h1 {
+    font-family: 'Bagerich';
+}
+
+img {
+    width: 70%;
+}
+
+@media only screen and (max-width: 768px) {
+
+    h1,
+    .fact-image {
+        text-align: center !important;
+    }
+}

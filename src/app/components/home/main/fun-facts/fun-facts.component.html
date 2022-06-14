@@ -1,0 +1,9 @@
+<div *ngFor="let fungi of facts | async">
+    <app-fun-one *ngIf="fungi.id == 1" [data]="fungi"></app-fun-one>
+    <app-fun-two *ngIf="fungi.id == 2" [data]="fungi"></app-fun-two>
+    <app-fun-three *ngIf="fungi.id == 3" [data]="fungi"></app-fun-three>
+    <app-fun-two *ngIf="fungi.id == 4" [data]="fungi"></app-fun-two>
+    <app-fun-one *ngIf="fungi.id == 5" [data]="fungi"></app-fun-one>
+    <app-fun-two *ngIf="fungi.id == 6" [data]="fungi"></app-fun-two>
+    <app-fun-two *ngIf="fungi.id == 7" [data]="fungi"></app-fun-two>
+</div>

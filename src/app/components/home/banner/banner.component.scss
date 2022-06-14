@@ -1,0 +1,29 @@
+.banner {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+    .heading {
+        text-align: center;
+        padding-top: 8%;
+        font-family: 'Bagerich';
+
+        h1 {
+            font-size: 13vw;
+        }
+
+        .opis {
+            font-family: "Agrandir";
+            font-stretch: extra-condensed;
+        }
+    }
+
+    @media only screen and (max-width: 992px) {
+        .heading {
+            padding-top: 20vh;
+        }
+    }
+
+}

@@ -1,0 +1,67 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+::-moz-selection {
+    color: #D6D5CB;
+    background: black;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #ffedc5;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+::selection {
+    color: #D6D5CB;
+    background: black;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Bagerich';
+    overflow-x: hidden;
+    
+}
+
+body {
+    background-color: #ffedc5;
+    overflow-x: hidden;
+    width: 100%;
+    overflow-y: hidden;
+}
+
+a {
+    color: #D6D5CB;
+    text-decoration: none;
+
+    &:hover {
+        color: #D6D5CB;
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    &:focus {
+        border: none;
+        box-shadow: none;
+    }
+}
+
+@import 'keyframes'
