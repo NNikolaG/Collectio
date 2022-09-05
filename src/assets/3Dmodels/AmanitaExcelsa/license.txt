@@ -1,0 +1,11 @@
+Model Information:
+* title:	Real fungus scan 3D - Amanita excelsa
+* source:	https://sketchfab.com/3d-models/real-fungus-scan-3d-amanita-excelsa-05a4726453fb4e55a95fd727276b223e
+* author:	Vincent Lagardère (https://sketchfab.com/v.lagardere)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Real fungus scan 3D - Amanita excelsa" (https://sketchfab.com/3d-models/real-fungus-scan-3d-amanita-excelsa-05a4726453fb4e55a95fd727276b223e) by Vincent Lagardère (https://sketchfab.com/v.lagardere) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

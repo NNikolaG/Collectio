@@ -1,0 +1,11 @@
+Model Information:
+* title:	Clavulina cristata - Real fungi 3D scan
+* source:	https://sketchfab.com/3d-models/clavulina-cristata-real-fungi-3d-scan-d1c6e074bb32453a9bc1e63ce3ccd796
+* author:	Vincent Lagardère (https://sketchfab.com/v.lagardere)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Clavulina cristata - Real fungi 3D scan" (https://sketchfab.com/3d-models/clavulina-cristata-real-fungi-3d-scan-d1c6e074bb32453a9bc1e63ce3ccd796) by Vincent Lagardère (https://sketchfab.com/v.lagardere) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

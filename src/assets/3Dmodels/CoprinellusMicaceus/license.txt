@@ -1,0 +1,11 @@
+Model Information:
+* title:	Real Fungus 3D scan - Coprinellus sp.
+* source:	https://sketchfab.com/3d-models/real-fungus-3d-scan-coprinellus-sp-316d4b7e0de04363943289532e9a4d72
+* author:	Vincent Lagardère (https://sketchfab.com/v.lagardere)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Real Fungus 3D scan - Coprinellus sp." (https://sketchfab.com/3d-models/real-fungus-3d-scan-coprinellus-sp-316d4b7e0de04363943289532e9a4d72) by Vincent Lagardère (https://sketchfab.com/v.lagardere) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

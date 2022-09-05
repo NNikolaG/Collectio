@@ -1,0 +1,11 @@
+Model Information:
+* title:	Ischnoderma benzoinum - Real 3D fungi
+* source:	https://sketchfab.com/3d-models/ischnoderma-benzoinum-real-3d-fungi-b33f0e5ed2ba45d9add26ac7e891f3e3
+* author:	Vincent Lagardère (https://sketchfab.com/v.lagardere)
+
+Model License:
+* license type:	CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions can not be distributed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Ischnoderma benzoinum - Real 3D fungi" (https://sketchfab.com/3d-models/ischnoderma-benzoinum-real-3d-fungi-b33f0e5ed2ba45d9add26ac7e891f3e3) by Vincent Lagardère (https://sketchfab.com/v.lagardere) licensed under CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
