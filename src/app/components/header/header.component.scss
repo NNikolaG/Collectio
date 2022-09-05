@@ -3,17 +3,21 @@
     border-color: rgba(0, 0, 0, 0) !important;
 
     &:focus {
-        border: none!important;
-        box-shadow: none!important;
+        border: none !important;
+        box-shadow: none !important;
     }
 }
 
 .navbar {
     padding: 0px 150px;
-    background-color: rgba(0, 0, 0, 0) !important;
+    font-family: Agrandir;
+    color: black;
     width: 100%;
 
     .contain {
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        backdrop-filter: blur(2px);
+
         position: absolute;
         height: 10vh;
         top: 0px;

@@ -4,18 +4,20 @@
     display: flex;
     justify-content: center;
 
-
     .heading {
         text-align: center;
         padding-top: 8%;
         font-family: 'Bagerich';
+        z-index: 99;
 
         h1 {
+            z-index: 99;
             font-size: 13vw;
         }
 
         .opis {
             font-family: "Agrandir";
+            z-index: 99;
             font-stretch: extra-condensed;
         }
     }

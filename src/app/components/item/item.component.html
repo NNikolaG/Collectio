@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="" *ngIf="data.model != 'nomodel'; else noModel">
+        <div class="row">
+            <div class="image col-lg-6 col-12 mt-5 mb-5 d-flex justify-content-center"><img
+                    src="../../../assets/images/{{data.image}}" alt="{{data.image}}"></div>
+            <div class="model col-lg-6 col-12 mt-5 mb-5">
+                <div class="model-back">
+                    <model-viewer src="assets/3Dmodels/{{data.model}}/scene.gltf" alt="fungus model" camera-controls ar
+                        ios-src="assets/3Dmodels/AmanitaMuscaria/scene.gltf"></model-viewer>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ng-template #noModel>
+        <div class="row d-flex justify-content-center">
+            <div class="image col-6 mt-5 mb-5 d-flex justify-content-center"><img
+                    src="../../../assets/images/{{data.image}}" alt="{{data.image}}"></div>
+        </div>
+    </ng-template>
+    <div class="title">
+        {{data.title}}
+    </div>
+    <div class="row">
+        <app-item-infos class="col-6 mt-5" *ngFor="let info of infos" [info]="info">
+        </app-item-infos>
+    </div>
+</div>

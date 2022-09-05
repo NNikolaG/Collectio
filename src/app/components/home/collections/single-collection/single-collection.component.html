@@ -1,0 +1,11 @@
+<div class="fungi-content" [ngStyle]="animateBlock" style="background-image: url('../../../../../assets/images/{{data.image}}'); background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;">
+    <div class="layer" [ngStyle]="hoverLayer">
+    </div>
+    <span class="content">
+        <a aria-current="page" [routerLink]="['/collection', transformUrl(data.title)]" routerLinkActive="active">
+            <p class="info" [ngStyle]="animateText">{{data.title}}</p>
+        </a>
+    </span>
+</div>

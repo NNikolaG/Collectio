@@ -6,29 +6,25 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AngularFireModule } from "@angular/fire/compat";
-import { AngularFireDatabaseModule} from '@angular/fire/compat/database';
+import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { LogoComponent } from './components/elements/logo/logo.component';
 
 import { BannerComponent } from './components/home/banner/banner.component';
-import { FungusTableComponent } from './components/home/fungus-table/fungus-table.component';
-import { FungusComponent } from './components/home/fungus-table/fungus/fungus.component';
 import { HomeComponent } from './components/home/home.component';
 import { environment } from 'src/environments/environment';
-import { FungusDetailsComponent } from './components/fungus-details/fungus-details.component';
-import { MainComponent } from './components/home/main/main.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { InfoComponentComponent } from './components/fungus-details/info-component/info-component.component';
-import { FunFactsComponent } from './components/home/main/fun-facts/fun-facts.component';
-import { FunOneComponent } from './components/home/main/fun-facts/fun-one/fun-one.component';
-import { FunTwoComponent } from './components/home/main/fun-facts/fun-two/fun-two.component';
-import { FunThreeComponent } from './components/home/main/fun-facts/fun-three/fun-three.component';
 import { AboutComponent } from './components/about/about.component';
 import { AuthorComponent } from './components/author/author.component';
-import { TimelineComponent } from './components/author/timeline/timeline.component';
-
+import { ReactiveFormsModule } from '@angular/forms';
+import { CollectionsComponent } from './components/home/collections/collections.component';
+import { SingleCollectionComponent } from './components/home/collections/single-collection/single-collection.component';
+import { CollectionComponent } from './components/collection/collection.component';
+import { CollectionItemComponent } from './components/collection/collection-item/collection-item.component';
+import { ItemComponent } from './components/item/item.component';
+import { ItemInfosComponent } from './components/item/item-infos/item-infos.component';
 
 @NgModule({
   declarations: [
@@ -36,20 +32,16 @@ import { TimelineComponent } from './components/author/timeline/timeline.compone
     HeaderComponent,
     LogoComponent,
     BannerComponent,
-    FungusTableComponent,
-    FungusComponent,
     HomeComponent,
-    FungusDetailsComponent,
-    MainComponent,
     FooterComponent,
-    InfoComponentComponent,
-    FunFactsComponent,
-    FunOneComponent,
-    FunTwoComponent,
-    FunThreeComponent,
     AboutComponent,
     AuthorComponent,
-    TimelineComponent,
+    CollectionItemComponent,
+    CollectionsComponent,
+    SingleCollectionComponent,
+    CollectionComponent,
+    ItemComponent,
+    ItemInfosComponent,
   ],
   imports: [
     BrowserModule,
@@ -58,10 +50,11 @@ import { TimelineComponent } from './components/author/timeline/timeline.compone
     BrowserAnimationsModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireDatabaseModule,
-    HttpClientModule
+    ReactiveFormsModule, 
+    HttpClientModule,
   ],
   providers: [Title],
   bootstrap: [AppComponent],
-  schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }

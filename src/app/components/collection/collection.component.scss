@@ -1,0 +1,57 @@
+.background-image {
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    img {
+        height: 100%;
+        width: 100%;
+
+    }
+}
+
+.row {
+    position: relative;
+}
+
+.collection-info {
+    font-family: "Agrandir";
+    padding-top: 2rem;
+
+    .title {
+        font-family: "Bagerich";
+        font-size: 4rem;
+    }
+}
+
+.image-info-container {
+    width: 100%;
+    padding: 0px 10%;
+}
+
+.collection-image {
+    position: absolute;
+    bottom: -10%;
+    width: 200px;
+    border: 5px solid white;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .image-info-container {
+        display: flex;
+        justify-content: center;
+
+        .collection-info {
+            text-align: center;
+        }
+    }
+}

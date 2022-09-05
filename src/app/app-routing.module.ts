@@ -1,25 +1,31 @@
+import { CollectionComponent } from './components/collection/collection.component';
 import { AuthorComponent } from './components/author/author.component';
 import { AboutComponent } from './components/about/about.component';
-import { FungusDetailsComponent } from './components/fungus-details/fungus-details.component';
 import { HomeComponent } from './components/home/home.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ItemComponent } from './components/item/item.component';
 
 const routes: Routes = [
   {
     path: '',
     component: HomeComponent,
-    data: { title: 'Fungus | Home' }
+    data: { title: 'Collēctiō | Home' }
   },
   {
-    path: 'fungus-details/:name',
-    component: FungusDetailsComponent,
-    data: { title: 'Fungus | Details' }
-  }, 
+    path: 'collection/:title',
+    component: CollectionComponent,
+    data: { title: 'Collēctiō | Details' }
+  },
+  {
+    path: 'collection/:title/:name',
+    component: ItemComponent,
+    data : {title: 'Collēctiō | Details'}
+  },
   {
     path: 'about',
     component: AboutComponent,
-    data: { title: 'Fungus | About' }
+    data: { title: 'Collēctiō | About' }
   },
   {
     path: 'author',

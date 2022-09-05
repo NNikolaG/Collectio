@@ -1,0 +1,12 @@
+<div class="card">
+    <div class="content">
+        <div class="imgBx">
+            <img src="../../assets/images/{{itemData.image}}">
+        </div>
+    </div>
+    <div class="item-info">
+        <a [routerLink]="['/collection',transformUrl(title), transformUrl(itemData.title)]">
+            <h5>{{itemData.title}}</h5>
+        </a>
+    </div>
+</div>

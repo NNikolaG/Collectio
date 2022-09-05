@@ -1,0 +1,41 @@
+.fungi-content {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 60;
+    
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+
+    .layer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      .info{
+        p{
+          width: 100%;
+        }
+      }
+      a {
+        width: 100%;
+        p {
+          font-weight: 300;
+          width: 100%;
+          z-index: 99;
+        }
+      }
+    }
+  }

@@ -1,18 +1,56 @@
-.model-back{
+input {
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    border: none;
+    border-bottom: 1.3px solid black;
     width: 100%;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
+}
 
-    model-viewer{
-        width: 100%;
-        height: 100%;
-        z-index: -1;
+
+mat-label {
+    margin-top: 20px;
+    display: block;
+}
+
+.alert-danger {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.req {
+    color: brown;
+}
+
+#msg {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 20px;
+
+    &:focus {
+        outline: none;
     }
 }
 
-.about-main{
-    height: 30vh;
+.about-main {
+    padding: 0px 12px;
+    margin: 20vh 0px 10vh 0px;
+    h1{
+        font-family: Bagerich;
+        font-size: 5rem;
+    }
+}
+
+.send {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid black;
+    outline: none;
+    width: 200px;
+    height: 50px;
+
+    &:focus {
+        outline: none;
+    }
 }

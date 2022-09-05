@@ -1,0 +1,3 @@
+<h2 *ngIf="info.title != ''; else invisHeading">{{info.title}}</h2>
+<ng-template #invisHeading><h2 class="invisible">NO HEADER</h2></ng-template>
+<p>{{info.content}}</p>
