@@ -4,14 +4,24 @@
       <h3 style="margin-left: 10px;">Sign Up</h3>
       <div class="formGroup">
         <input type="text" class="input-style" placeholder="First Name" #userFirstName required />
+        <span class="error" *ngIf="errors"> {{errors.firstName}}</span>
+      </div>
+      <div class="formGroup">
         <input type="text" class="input-style" placeholder="Last Name" #userLastName required />
+        <span class="error" *ngIf="errors"> {{errors.lastName}}</span>
       </div>
       <div class="formGroup">
         <input type="text" class="input-style" placeholder="Username" #username required />
+        <span class="error" *ngIf="errors"> {{errors.username}}</span>
       </div>
       <div class="formGroup">
         <input type="email" class="input-style" placeholder="Email Address" #userEmail required />
+        <span class="error" *ngIf="errors"> {{errors.email}}</span>
+      </div>
+      <div class="formGroup">
         <input type="password" class="input-style" placeholder="Password" #userPwd required />
+        <span class="error" *ngIf="errors"> {{errors.password}}</span>
+
       </div>
       <div class="formGroup" style="margin-left: 10px;">
         <input type="button" class="basic-button" value="Sign Up"
@@ -22,7 +32,4 @@
       <span class="redirect small-link" routerLink="/sign-in">Sign In</span>
     </div>
   </div>
-  <p *ngFor="let error of errors">
-    {{error.PropertyName}}
-  </p>
 </div>

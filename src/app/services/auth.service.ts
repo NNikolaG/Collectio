@@ -76,7 +76,6 @@ export class AuthService {
         this.errorCount = error.error.errors;
       },
     });
-
   }
 
   // Sign up with email/password
