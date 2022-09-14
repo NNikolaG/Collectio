@@ -55,8 +55,8 @@ export class AuthService {
         window.alert(error.message);
       });
   }
-  // Sign up with email/password
-  SignUp(email: string, password: string, firstName: string, lastName: string, username: string) {
+
+  registerUser(email: string, password: string, firstName: string, lastName: string, username: string) {
 
     const headers = { 'content-type': 'application/json' }
     const body = JSON.stringify({
@@ -68,12 +68,19 @@ export class AuthService {
     });
 
     this.http.post(this.baseUrl + "register", body, { 'headers': headers }).subscribe({
-      next: (response) => console.log(response),
+      next: (response) => {
+        this.SignUp(email, password);
+      },
       error: (error) => {
         this.errors$.next(error.error)
+        this.errorCount = error.error.errors;
       },
     });
 
+  }
+
+  // Sign up with email/password
+  SignUp(email: string, password: string) {
     return this.afAuth
       .createUserWithEmailAndPassword(email, password)
       .then((result) => {
