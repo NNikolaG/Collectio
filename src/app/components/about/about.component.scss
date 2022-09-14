@@ -43,14 +43,7 @@ mat-label {
     }
 }
 
-.send {
-    background-color: rgba(0, 0, 0, 0);
-    border: 1px solid black;
-    outline: none;
+.basic-button{
     width: 200px;
     height: 50px;
-
-    &:focus {
-        outline: none;
-    }
 }

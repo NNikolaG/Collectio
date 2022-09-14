@@ -89,4 +89,47 @@ button {
     }
 }
 
+.displayTable {
+    .input-style {
+        width: 400px;
+        margin: 10px 10px;
+        border: none;
+        border-bottom: 1px solid black;
+        background-color: rgba(0, 0, 0, 0);
+
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+.basic-button {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid black;
+    outline: none;
+    width: 400px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.displayTable {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: #FFFAFA;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .small-link {
+        font-size: small;
+
+        &:hover {
+            color: dodgerblue;
+        }
+
+        cursor: pointer;
+    }
+}
+
 @import 'keyframes'

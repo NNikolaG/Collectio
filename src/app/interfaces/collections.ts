@@ -1,9 +1,8 @@
 export interface Collections {
     id : number;
     title: string;
-    image: string;
     backgroundImage: string;
-    userId: number;
-    categoryId: number;
+    username: string;
+    category: string;
     items: [number];
   }

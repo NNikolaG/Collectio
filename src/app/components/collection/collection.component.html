@@ -1,29 +1,28 @@
-<div class="row">
-    <div class="background-image col-12"
-        style="background-image:url('../../../assets/images/{{data.backgroundImage}}')">
+<div class="row" *ngIf="collection">
+    <div class="background-image col-12" 
+        style="background-image:url('../../../assets/images/{{collection.backgroundImage}}')">
     </div>
     <div class="image-info-container">
         <div class="collection-image">
-            <img src="../../../assets/images/{{data.image}}" alt="{{data.image}}" srcset="">
+            <img src="../../../assets/images/{{item.image}}" alt="{{item.image}}" srcset="">
         </div>
     </div>
 </div>
-<div class="row">
+<div class="row" *ngIf="collection">
     <div class="image-info-container">
         <div class="collection-info">
             <div class="author">
-                <h1 class="title">{{data.title}}</h1>
-                <p *ngIf="author">By : {{author.firstName + " " + author.lastName}}</p>
-                <p>{{data.description}}</p>
+                <h1 class="title">{{collection.title}}</h1>
+                <p>By : {{collection.username}}</p>
             </div>
         </div>
     </div>
 </div>
-<div class="container">
+<div class="container" *ngIf="collection">
     <div class="row">
         <div class="col-12 d-flex flex-wrap justify-content-around">
             <app-collection-item class="col-lg-3 col-md-6 col-sm-6 col-12" *ngFor="let item of items" [itemData]="item"
-                [title]="collectionTitle">
+                [title]="collection.title">
             </app-collection-item>
         </div>
     </div>

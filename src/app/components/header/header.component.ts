@@ -1,3 +1,4 @@
+import { AuthService } from 'src/app/services/auth.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -11,7 +12,7 @@ export class HeaderComponent implements OnInit {
   public triggerAnimation!: boolean;
   public scrollValue!: number;
 
-  constructor() { }
+  constructor(public authService: AuthService) { }
 
   ngOnInit(): void {
     this.animateHeader();

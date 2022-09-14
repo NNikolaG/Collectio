@@ -15,6 +15,17 @@
             font-size: 13vw;
         }
 
+        .search {
+            margin: 10px 0px;
+            border: none;
+            border-bottom: 1px solid black;
+            background-color: rgba(0, 0, 0, 0);
+
+            &:focus {
+                outline: none;
+            }
+        }
+
         .opis {
             font-family: "Agrandir";
             z-index: 99;

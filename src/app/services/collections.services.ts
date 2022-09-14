@@ -1,10 +1,7 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { BehaviorSubject, Observable } from 'rxjs';
-
-import { AngularFireDatabase, AngularFireList } from '@angular/fire/compat/database';
-
-import { Collections } from './../interfaces/collections';
-
+import { Observable, Subject } from 'rxjs';
+import { Paginate } from '../interfaces/paginate';
 
 @Injectable({
   providedIn: 'root'
@@ -12,50 +9,29 @@ import { Collections } from './../interfaces/collections';
 
 export class CollectionsServices {
 
-  public collections: Observable<Collections[]>;
-  private itemsRef: AngularFireList<any>;
+  private baseUrl: string = "https://collectio.azurewebsites.net/api/collections";
 
-  singleCollection!: Observable<unknown[]>;
-  collectionModel!: BehaviorSubject<any>;
+  public colx$: Subject<Paginate> = new Subject<Paginate>();
 
-  authorData!: Observable<unknown[]>;
-  private itemsData!: any;
+  constructor(private http: HttpClient) { }
 
-  constructor(private db: AngularFireDatabase) {
-
-    this.itemsRef = db.list('collections');
-    this.collections = this.itemsRef.valueChanges();
+  private searchUrlContructor(urlPart: string): string {
+    return this.baseUrl + '?keyword=' + urlPart;
   }
 
-  public find(title: string | null): Observable<unknown[]> {
-    this.singleCollection = this.db.list('collections', ref =>
-      ref.orderByChild('title').equalTo(title)
-    ).valueChanges();
-
-    return this.singleCollection;
-  }
-
-  public author(userId: string | null): Observable<unknown[]> {
-    this.authorData = this.db.list('users', ref =>
-      ref.orderByChild('id').equalTo(userId)
-    ).valueChanges();
-
-    return this.authorData;
-  }
-
-  public items(itemIds: []): Observable<unknown[]>[] {
-    this.itemsData = new Array<Observable<unknown[]>>();
-    itemIds.forEach(element => {
-      let obj = this.db.list('collectionItems', ref =>
-        ref.orderByChild('id').equalTo(element)
-      ).valueChanges();
-      this.itemsData.push(obj);
+  public getCollections(): void {
+    this.http.get<Paginate>(this.baseUrl).subscribe(data => {
+      this.colx$.next(data);
     });
-    return this.itemsData;
   }
 
-  public getCollections(): Observable<Collections[]> {
-    return this.collections;
+  public searchCollection(keyword: string) {
+    this.http.get<Paginate>(this.searchUrlContructor(keyword)).subscribe(data => {
+      this.colx$.next(data);
+    })
   }
 
+  public getCollection(collectionName: string): Observable<Paginate> {
+    return this.http.get<Paginate>(this.searchUrlContructor(collectionName));
+  }
 }

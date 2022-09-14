@@ -1,5 +1,6 @@
 import { $animations } from 'src/app/animations';
 import { Component, OnInit } from '@angular/core';
+import { CollectionsServices } from 'src/app/services/collections.services';
 
 @Component({
   selector: 'app-banner',
@@ -9,10 +10,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BannerComponent implements OnInit {
 
-  
-  constructor() { }
+  constructor(private collectionServices: CollectionsServices) { }
 
   ngOnInit(): void {
   }
 
+  value!: string;
+
+  searchCollection(keyword: string) {
+      this.collectionServices.searchCollection(keyword);
+  }
 }

@@ -10,7 +10,12 @@ import { Collections } from 'src/app/interfaces/collections';
 })
 export class CollectionsComponent implements OnInit {
 
-  collections!: Observable<Collections[]>;
+  public page!: number;
+  public perPage!: number;
+  public pagesCount!: number;
+  public totalCount!: number;
+
+  collections!: Collections[];
   data!: Collections[];
 
   constructor(private collectionServices: CollectionsServices) { }
@@ -20,6 +25,16 @@ export class CollectionsComponent implements OnInit {
   }
 
   getCollections(): void {
-    this.collections = this.collectionServices.getCollections();
+    this.collectionServices.getCollections();
+
+    this.collectionServices.colx$.subscribe(data => {
+      
+      this.collections = data.data;
+      this.page = data.page;
+      this.perPage = data.perPage;
+      this.pagesCount = data.pagesCount;
+      this.totalCount = data.totalCount;
+
+    })
   }
 }

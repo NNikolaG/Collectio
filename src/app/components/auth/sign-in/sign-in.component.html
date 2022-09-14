@@ -1,0 +1,24 @@
+<div class="displayTable d-flex">
+  <div class="displayTableCell">
+    <div class="authBlock">
+      <h3 style="margin-left: 10px;">Sign In</h3>
+      <div class="formGroup">
+        <input type="text" class="input-style" placeholder="Username" #userName required>
+      </div>
+      <div class="formGroup">
+        <input type="password" class="input-style" placeholder="Password" #userPassword required>
+      </div>
+      <!-- Calling SignIn Api from AuthService -->
+      <div class="formGroup" style="margin-left: 10px;">
+        <input type="button" class="basic-button" value="Sign in"
+          (click)="authService.SignIn(userName.value, userPassword.value)">
+      </div>
+      <div class="forgotPassword">
+        <span routerLink="/forgot-password" class="small-link" style="margin-left: 10px;">Forgot Password</span>
+      </div>
+    </div>
+    <div class="redirectToLogin" style="margin-left: 10px;">
+      <span class="redirect" routerLink="/register-user" class="small-link">Create Account</span>
+    </div>
+  </div>
+</div>

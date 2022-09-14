@@ -3,5 +3,7 @@
         <h1>collēctiō </h1>
         <h3>The encyclopedia of everything</h3>
         <span class="opis">discover, learn & share your work</span>
+        <br>
+        <input [ngModel]="value" (ngModelChange)="searchCollection($event)" class="search" placeholder="   search for collections">
     </div>
 </div>

@@ -1,6 +1,6 @@
 <nav class="navbar fixed-top  navbar-expand-lg navbar-light bg-light">
   <div class="contain" [ngStyle]="headerOverlay">
-    <a class="navbar-brand" routerLink="/author" routerLinkActive="active">NIKOLAGUTIC</a>
+    <a class="navbar-brand" routerLink="/author" routerLinkActive="active">author</a>
     <button class="navbar-toggler navButton" type="button" data-bs-toggle="collapse"
       data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
       aria-label="Toggle navigation" (click)="animateButton()" [ngStyle]="buttonAnimation">
@@ -9,10 +9,25 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 navi">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" routerLink="/" routerLinkActive="active">Home</a>
+          <a class="nav-link" routerLink="/" routerLinkActive="active">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" routerLink="/about" routerLinkActive="active">Contact</a>
+        </li>
+        <li class="nav-item" *ngIf="authService.userData as user">
+          <a class="nav-link" routerLink="/dashboard">
+            <i class="fas fa-user"></i>{{authService.userData.email}}
+          </a>
+        </li>
+        <li class="nav-item" *ngIf="authService.userData as user">
+          <a class="nav-link" (click)="authService.SignOut()">
+            <i class="fas fa-sign-out-alt"></i>Log out
+          </a>
+        </li>
+        <li class="nav-item" *ngIf="!authService.userData as user">
+          <a class="nav-link" routerLink="/sign-in" routerLinkActive="active">
+            <i class="fas fa-sign-out-alt"></i>Sign In
+          </a>
         </li>
       </ul>
     </div>

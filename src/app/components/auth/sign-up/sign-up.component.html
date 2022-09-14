@@ -1,0 +1,28 @@
+<div class="displayTable">
+  <div class="displayTableCell">
+    <div class="authBlock">
+      <h3 style="margin-left: 10px;">Sign Up</h3>
+      <div class="formGroup">
+        <input type="text" class="input-style" placeholder="First Name" #userFirstName required />
+        <input type="text" class="input-style" placeholder="Last Name" #userLastName required />
+      </div>
+      <div class="formGroup">
+        <input type="text" class="input-style" placeholder="Username" #username required />
+      </div>
+      <div class="formGroup">
+        <input type="email" class="input-style" placeholder="Email Address" #userEmail required />
+        <input type="password" class="input-style" placeholder="Password" #userPwd required />
+      </div>
+      <div class="formGroup" style="margin-left: 10px;">
+        <input type="button" class="basic-button" value="Sign Up"
+          (click)="authService.SignUp(userEmail.value, userPwd.value,  userFirstName.value, userLastName.value, username.value)" />
+      </div>
+    </div>
+    <div class="redirectToLogin" style="margin-left: 10px;">
+      <span class="redirect small-link" routerLink="/sign-in">Sign In</span>
+    </div>
+  </div>
+  <p *ngFor="let error of errors">
+    {{error.PropertyName}}
+  </p>
+</div>
