@@ -15,6 +15,7 @@ export class HeaderComponent implements OnInit {
   constructor(public authService: AuthService) { }
 
   ngOnInit(): void {
+    this.authService.getMoreUserInfo();
     this.animateHeader();
   }
 

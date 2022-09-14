@@ -20,5 +20,8 @@
     <div class="redirectToLogin" style="margin-left: 10px;">
       <span class="redirect" routerLink="/register-user" class="small-link">Create Account</span>
     </div>
+    <div *ngIf="authService.errorMsgFirebase" class="error-msg mt-3">
+      <p>{{authService.errorMsgFirebase}}</p>
+  </div>
   </div>
 </div>

@@ -6,6 +6,11 @@ import { AuthService } from 'src/app/services/auth.service';
   styleUrls: ['./dashboard.component.scss'],
 })
 export class DashboardComponent implements OnInit {
-  constructor(public authService: AuthService) {}
-  ngOnInit(): void {}
+
+
+
+  constructor(public authService: AuthService) { }
+  ngOnInit(): void {
+    this.authService.getMoreUserInfo();
+  }
 }

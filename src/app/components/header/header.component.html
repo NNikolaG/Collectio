@@ -14,21 +14,25 @@
         <li class="nav-item">
           <a class="nav-link" routerLink="/about" routerLinkActive="active">Contact</a>
         </li>
-        <li class="nav-item" *ngIf="authService.userData as user">
-          <a class="nav-link" routerLink="/dashboard">
-            <i class="fas fa-user"></i>{{authService.userData.email}}
-          </a>
-        </li>
-        <li class="nav-item" *ngIf="authService.userData as user">
-          <a class="nav-link" (click)="authService.SignOut()">
-            <i class="fas fa-sign-out-alt"></i>Log out
-          </a>
-        </li>
-        <li class="nav-item" *ngIf="!authService.userData as user">
-          <a class="nav-link" routerLink="/sign-in" routerLinkActive="active">
-            <i class="fas fa-sign-out-alt"></i>Sign In
-          </a>
-        </li>
+        <span *ngIf="authService.isLoggedIn == true" class="d-flex">
+          <li class="nav-item" *ngIf="authService.userData as user">
+            <a class="nav-link" routerLink="/dashboard">
+              <i class="fas fa-user"></i>{{authService.moreData.username}}
+            </a>
+          </li>
+          <li class="nav-item" *ngIf="authService.userData as user">
+            <a class="nav-link" (click)="authService.SignOut()">
+              <i class="fas fa-sign-out-alt"></i>Log out
+            </a>
+          </li>
+        </span>
+        <div *ngIf="authService.isLoggedIn == false">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/sign-in" routerLinkActive="active">
+              <i class="fas fa-sign-out-alt"></i>Sign In
+            </a>
+          </li>
+        </div>
       </ul>
     </div>
   </div>

@@ -6,13 +6,20 @@ import {
   AngularFirestoreDocument,
 } from '@angular/fire/compat/firestore';
 import { Router } from '@angular/router';
-import { Subject } from 'rxjs';
+import { Subject, Observable } from 'rxjs';
 import { User } from '../interfaces/user';
 @Injectable({
   providedIn: 'root',
 })
 export class AuthService {
-  userData: any; // Save logged in user data
+  public userData: any; // Save logged in user data
+  //User info from API
+  public moreData: any = {
+    username: '',
+    firstName: '',
+    lastName: '',
+    email: '',
+  }
   constructor(
     public afs: AngularFirestore, // Inject Firestore service
     public afAuth: AngularFireAuth, // Inject Firebase auth service
@@ -37,22 +44,28 @@ export class AuthService {
 
   private baseUrl: string = "https://collectio.azurewebsites.net/api/";
   public errors$: Subject<any> = new Subject<any>();
-  private errorCount = new Array([1]);
+  private errorCount!: any;
+  public errorMsgFirebase!: string;
 
   // Sign in with email/password
   SignIn(email: string, password: string) {
     return this.afAuth
       .signInWithEmailAndPassword(email, password)
       .then((result) => {
-        this.SetUserData(result.user);
-        this.afAuth.authState.subscribe((user) => {
-          if (user) {
-            this.router.navigate(['dashboard']);
-          }
-        });
+        if (result.user?.emailVerified === false) {
+          throw new Error("Please verify your Email");
+        }
+        else {
+          this.SetUserData(result.user);
+          this.afAuth.authState.subscribe((user) => {
+            if (user) {
+              this.router.navigate(['dashboard']);
+            }
+          });
+        }
       })
       .catch((error) => {
-        window.alert(error.message);
+        this.errorMsgFirebase = error.message;
       });
   }
 
@@ -68,7 +81,7 @@ export class AuthService {
     });
 
     this.http.post(this.baseUrl + "register", body, { 'headers': headers }).subscribe({
-      next: (response) => {
+      next: () => {
         this.SignUp(email, password);
       },
       error: (error) => {
@@ -138,12 +151,21 @@ export class AuthService {
     const userData: User = {
       uid: user.uid,
       email: user.email,
-      displayName: user.displayName,
       photoURL: user.photoURL,
       emailVerified: user.emailVerified,
     };
     return userRef.set(userData, {
       merge: true,
+    });
+  }
+
+  getMoreUserInfo() {
+    const email = JSON.parse(localStorage.getItem('user')!).email;
+    this.http.get(this.baseUrl + "register?keyword=" + email).subscribe((data: any) => {
+      this.moreData.username = data.username;
+      this.moreData.firstName = data.firstName;
+      this.moreData.lastName = data.lastName;
+      this.moreData.email = data.email;
     });
   }
   // Sign out
