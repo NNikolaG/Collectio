@@ -1,0 +1,48 @@
+<div *ngIf="collection && myCollection == true; else notAllowed">
+    <div class="row">
+        <div class="background-image col-12"
+            style="background-image:url('../../../assets/images/{{collection.backgroundImage}}')">
+        </div>
+        <div class="image-info-container">
+            <div class="collection-image">
+                <img src="../../../assets/images/{{item.image}}" alt="{{item.image}}" srcset="">
+            </div>
+        </div>
+    </div>
+    <div class="row" *ngIf="collection">
+        <div class="image-info-container">
+            <div class="collection-info">
+                <div class="author">
+                    <h1 class="title">{{collection.title}}</h1>
+                    <a class='delete-collection' (click)="deleteCollection(collection.id)">Delete Collection</a>
+                    <p>By : {{collection.username}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" *ngIf="collection">
+        <div class="row">
+            <div class="col-12 d-flex flex-wrap justify-content-around">
+                <app-collection-item class="col-lg-3 col-md-6 col-sm-6 col-12" *ngFor="let item of items"
+                    [itemData]="item" [title]="collection.title" [mode]="'editor'" [deleteColl]="deleteColl">
+                </app-collection-item>
+                <div class="add-collection col-lg-3 col-md-6 col-sm-6 col-12 ms-3 me-3 mb-5 mt-3 d-flex justify-content-center align-items-center"
+                    [routerLink]="['/create-item', collection.id]">
+                    <div class="add d-flex justify-content-center align-items-center">
+                        <span class="up"></span>
+                        <span class="down"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<ng-template #notAllowed>
+    <div class="container mt-5 pt-5">
+        <div class="row mt-5 pt-5">
+            <div class="col-12 d-flex justify-content-center">
+                <h1>You can't Edit others Collection.</h1>
+            </div>
+        </div>
+    </div>
+</ng-template>

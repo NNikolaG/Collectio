@@ -7,8 +7,6 @@ import { AuthService } from 'src/app/services/auth.service';
 })
 export class DashboardComponent implements OnInit {
 
-
-
   constructor(public authService: AuthService) { }
   ngOnInit(): void {
     this.authService.getMoreUserInfo();

@@ -3,7 +3,7 @@
     <div class="authBlock">
       <h3 style="margin-left: 10px;">Sign In</h3>
       <div class="formGroup">
-        <input type="text" class="input-style" placeholder="Username" #userName required>
+        <input type="text" class="input-style" placeholder="Email" #userName required>
       </div>
       <div class="formGroup">
         <input type="password" class="input-style" placeholder="Password" #userPassword required>
@@ -22,6 +22,7 @@
     </div>
     <div *ngIf="authService.errorMsgFirebase" class="error-msg mt-3">
       <p>{{authService.errorMsgFirebase}}</p>
-  </div>
+    </div>
+
   </div>
 </div>

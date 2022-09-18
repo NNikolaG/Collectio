@@ -9,6 +9,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AngularFireModule } from "@angular/fire/compat";
 import { AngularFireAuthModule } from '@angular/fire/compat/auth';
 import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
+import { AngularFireStorageModule } from '@angular/fire/compat/storage';
+
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -33,6 +35,10 @@ import { SignUpComponent } from './components/auth/sign-up/sign-up.component';
 import { ForgotPasswordComponent } from './components/auth/forgot-password/forgot-password.component';
 import { VerifyEmailComponent } from './components/auth/verify-email/verify-email.component';
 import { AuthService } from './services/auth.service';
+import { MyCollectionsComponent } from './components/user-panel/my-collections/my-collections.component';
+import { CreateCollectionComponent } from './components/user-panel/create-collection/create-collection.component';
+import { EditCollectionComponent } from './components/user-panel/edit-collection/edit-collection.component';
+import { CreateItemComponent } from './components/user-panel/create-item/create-item.component';
 
 @NgModule({
   declarations: [
@@ -55,6 +61,10 @@ import { AuthService } from './services/auth.service';
     SignUpComponent,
     ForgotPasswordComponent,
     VerifyEmailComponent,
+    MyCollectionsComponent,
+    CreateCollectionComponent,
+    EditCollectionComponent,
+    CreateItemComponent,
   ],
   imports: [
     BrowserModule,
@@ -67,6 +77,7 @@ import { AuthService } from './services/auth.service';
     ReactiveFormsModule,
     HttpClientModule,
     FormsModule,
+    AngularFireStorageModule
   ],
   providers: [Title, AuthService],
   bootstrap: [AppComponent],

@@ -1,13 +1,15 @@
-.model-back{
-    model-viewer{
+.model-back {
+    model-viewer {
         width: 100%;
         height: 500px;
     }
 }
-.error-msg{
-    p{
+
+.error-msg {
+    p {
         color: brown;
         max-width: 400px;
         margin-left: 10px;
     }
 }
+

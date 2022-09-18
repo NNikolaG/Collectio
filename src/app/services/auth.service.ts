@@ -46,6 +46,7 @@ export class AuthService {
   public errors$: Subject<any> = new Subject<any>();
   private errorCount!: any;
   public errorMsgFirebase!: string;
+  public alertMsgFirebase!: string;
 
   // Sign in with email/password
   SignIn(email: string, password: string) {
@@ -102,7 +103,7 @@ export class AuthService {
         this.SetUserData(result.user);
       })
       .catch((error) => {
-        window.alert(error.message);
+        this.errorMsgFirebase = error.message;
       });
   }
   // Send email verfificaiton when new user sign up
@@ -118,10 +119,10 @@ export class AuthService {
     return this.afAuth
       .sendPasswordResetEmail(passwordResetEmail)
       .then(() => {
-        window.alert('Password reset email sent, check your inbox.');
+        throw new Error("Password reseted. Check your email");
       })
       .catch((error) => {
-        window.alert(error);
+        this.alertMsgFirebase = error.message;
       });
   }
   // Returns true when user is looged in and email is verified
@@ -175,5 +176,8 @@ export class AuthService {
       this.router.navigate(['sign-in']);
       location.reload();
     });
+  }
+  getUserId(email: string): Observable<any>{
+    return this.http.get(this.baseUrl +"/register?keyword=" + email);
   }
 }

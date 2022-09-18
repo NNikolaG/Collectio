@@ -9,6 +9,7 @@ export class SingleCollectionComponent implements OnInit {
 
 
   @Input() data!: any;
+  @Input() link!: string;
 
   isVisible = false;
   brojac!: number;
@@ -53,7 +54,10 @@ export class SingleCollectionComponent implements OnInit {
   }
 
   ngOnInit(): void {
+  }
 
+  getLink(): string{
+    return "/" + this.link;
   }
 
   get animateText() {

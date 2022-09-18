@@ -1,0 +1,16 @@
+.add-collection {
+    cursor: pointer;
+    height: 240px   ;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+    .add {
+        position: relative;
+        span {
+            position: absolute;
+            width: 50px;
+            border-bottom: 2px solid #222222;
+        }
+        .up {
+            transform: rotate(90deg);
+        }
+    }
+}

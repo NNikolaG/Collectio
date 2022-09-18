@@ -1,0 +1,67 @@
+<div class="container">
+    <div class="row mt-5 pt-5 d-flex justify-content-center">
+        <div class="col-6">
+            <h1>Create new Collection</h1>
+            <form [formGroup]="createCollection">
+                <div class="row">
+                    <input formControlName="userId" hidden [value]="userId" />
+                    <mat-form-field appearance="outline">
+                        <mat-label>Collection Title <span class="req">*</span> </mat-label><br>
+                        <input matInput formControlName="title" class="input-style" />
+                        <div *ngIf="title?.invalid && (title?.dirty || title?.touched)" class="alert alert-danger">
+                            <mat-error>
+                                <ng-container *ngIf="title?.errors?.['required']">
+                                    Collection Title is required.
+                                </ng-container>
+                            </mat-error>
+                        </div>
+                    </mat-form-field>
+                    <mat-form-field appearance="outline">
+                        <mat-label>Category <span class="req">*</span></mat-label><br>
+                        <select formControlName="categoryId" id="category" class="input-style">
+                            <option *ngFor="let category of categories; let i = index"
+                                [value]="categories[i].categoryId">
+                                {{categories[i].title}}
+                            </option>
+                        </select>
+                        <div *ngIf="categoryId?.invalid && (categoryId?.dirty || categoryId?.touched)"
+                            class="alert alert-danger">
+                            <mat-error>
+                                <ng-container *ngIf="categoryId?.errors?.['required']">
+                                    Category is required.
+                                </ng-container>
+                                <ng-container *ngIf="categoryId?.errors?.['minlength']">
+                                    The field is under min Len.
+                                </ng-container>
+                            </mat-error>
+                        </div>
+                    </mat-form-field>
+                </div>
+                <mat-form-field appearance="outline">
+                    <mat-label>BackGroundImage <span class="req">*</span></mat-label>
+                    <input (change)="getFile($event)" placeholder="Picture" formControlName="backgroundImage"
+                        type="file" multiple="multiple"  required>
+                    <div *ngIf="backgroundImage?.invalid && (backgroundImage?.dirty || backgroundImage?.touched)" class="alert alert-danger">
+                                <mat-error>
+                                    <ng-container *ngIf="backgroundImage?.errors?.['required']">
+                                        Image is required.
+                                    </ng-container>
+                                </mat-error>
+                            </div>
+                </mat-form-field>
+                <div class="row">
+                    <div class="col-12">
+                        <button class='basic-button' mat-flat-button color="primary" (click)="onSubmit()"
+                            [disabled]="createCollection.invalid">Create Collection</button>
+                    </div>
+                </div>
+            </form>
+            <div *ngIf="collectionsService.message" class="succ-msg">
+                <p>{{collectionsService.message}}</p>
+            </div>
+            <div *ngIf="errors" class="error-msg">
+                <p>{{errors}}</p>
+            </div>
+        </div>
+    </div>
+</div>

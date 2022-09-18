@@ -1,0 +1,48 @@
+<div class="container">
+    <div class="row mt-5 pt-5 d-flex justify-content-center">
+        <div class="col-6">
+            <h1>Create new Item</h1>
+            <form [formGroup]="createItem">
+                <div class="row">
+                    <input formControlName="userId" hidden [value]="collectionId" />
+                    <mat-form-field appearance="outline">
+                        <mat-label>Item Title <span class="req">*</span> </mat-label><br>
+                        <input matInput formControlName="title" class="input-style" style="margin-left: 0px;"/>
+                        <div *ngIf="title?.invalid && (title?.dirty || title?.touched)" class="alert alert-danger">
+                            <mat-error>
+                                <ng-container *ngIf="title?.errors?.['required']">
+                                    Item Title is required.
+                                </ng-container>
+                            </mat-error>
+                        </div>
+                    </mat-form-field>
+                </div>
+                <mat-form-field appearance="outline">
+                    <mat-label>Item Image <span class="req">*</span></mat-label>
+                    <input (change)="getFile($event)" placeholder="Picture" formControlName="itemImage" type="file"
+                        multiple="multiple" required>
+                    <div *ngIf="itemImage?.invalid && (itemImage?.dirty || itemImage?.touched)"
+                        class="alert alert-danger">
+                        <mat-error>
+                            <ng-container *ngIf="itemImage?.errors?.['required']">
+                                Image is required.
+                            </ng-container>
+                        </mat-error>
+                    </div>
+                </mat-form-field>
+                <div class="row">
+                    <div class="col-12">
+                        <button class='basic-button' mat-flat-button color="primary" (click)="onSubmit()"
+                            [disabled]="createItem.invalid">Create Item</button>
+                    </div>
+                </div>
+            </form>
+            <div *ngIf="itemsService.message" class="succ-msg">
+                <p>{{itemsService.message}}</p>
+            </div>
+            <div *ngIf="errors" class="error-msg">
+                <p>{{errors}}</p>
+            </div>
+        </div>
+    </div>
+</div>

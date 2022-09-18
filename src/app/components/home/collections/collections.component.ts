@@ -1,6 +1,5 @@
 import { CollectionsServices } from './../../../services/collections.services';
 import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs';
 import { Collections } from 'src/app/interfaces/collections';
 
 @Component({
@@ -17,6 +16,7 @@ export class CollectionsComponent implements OnInit {
 
   collections!: Collections[];
   data!: Collections[];
+  link!: string;
 
   constructor(private collectionServices: CollectionsServices) { }
 

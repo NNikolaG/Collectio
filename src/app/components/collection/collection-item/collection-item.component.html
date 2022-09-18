@@ -1,12 +1,21 @@
-<div class="card">
+<div class="card" *ngIf="itemData">
     <div class="content">
         <div class="imgBx">
-            <img src="../../assets/images/{{itemData.image}}">
+            <div *ngIf="itemData.image">
+                <img [src]="imageSrc">
+
+            </div>
         </div>
     </div>
     <div class="item-info">
         <a [routerLink]="['/collection',transformUrl(title), transformUrl(itemData.title)]">
             <h5>{{itemData.title}}</h5>
+        </a>
+        <a *ngIf="mode == 'editor' && deleteColl == undefined" (click)="deleteMe(itemData.id)">
+            <p class="delete">Delete</p>
+        </a>
+        <a *ngIf="mode == 'editor' && deleteColl" (click)="deleteCollection(deleteColl)">
+            <p class="delete">Delete</p>
         </a>
     </div>
 </div>

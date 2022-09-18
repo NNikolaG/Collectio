@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { Observable } from 'rxjs';
 import { Collections } from 'src/app/interfaces/collections';
-import { Items } from 'src/app/interfaces/items';
 import { CollectionsServices } from 'src/app/services/collections.services';
 
 @Component({
@@ -14,6 +12,7 @@ export class CollectionComponent implements OnInit {
 
   private sub!: any;
   private collectionTitle!: string;
+  public deleteColl!: number;
 
   public collection!: Collections;
   public item!: any;
@@ -37,6 +36,10 @@ export class CollectionComponent implements OnInit {
       this.collection = data.data[0];
       this.item = data.data[0].items[0];
       this.items = data.data[0].items;
+
+      if(this.items.length == 1){
+        this.deleteColl = this.collection.id;
+      }
     })
   }
 }

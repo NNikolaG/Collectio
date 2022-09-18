@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="row mt-5 pt-5">
+        <div class="header">
+            <h1>My Collections</h1>
+        </div>
+        <div class="col-12 d-flex flex-wrap justify-content-center">
+            <app-single-collection class="col-lg-2 col-md-3 col-12 ms-3 me-3 mb-5 mt-3"
+                *ngFor="let collection of collections" [data]="collection" [link]="'edit-collection'">
+            </app-single-collection>
+            <div class="add-collection col-lg-2 col-md-3 col-12 ms-3 me-3 mb-5 mt-3 d-flex justify-content-center align-items-center"
+                routerLink="/create-collection">
+                <div class="add d-flex justify-content-center align-items-center">
+                    <span class="up"></span>
+                    <span class="down"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
