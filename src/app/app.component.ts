@@ -12,7 +12,7 @@ import { filter } from 'rxjs/operators';
 
 export class AppComponent {
 
-  title = 'Fungus';
+  title = 'Collēctiō';
 
   constructor(
     private router: Router,

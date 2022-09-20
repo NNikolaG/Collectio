@@ -23,7 +23,6 @@ export class MyCollectionsComponent implements OnInit {
 
   getUserCollections() {
     const email = JSON.parse(localStorage.getItem('user')!).email;
-    console.log(email);
     this.collectionsServices.getUserCollections(email).subscribe(data =>{
       this.collections = data.data;
     });

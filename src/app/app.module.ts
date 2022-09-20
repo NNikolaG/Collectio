@@ -39,6 +39,7 @@ import { MyCollectionsComponent } from './components/user-panel/my-collections/m
 import { CreateCollectionComponent } from './components/user-panel/create-collection/create-collection.component';
 import { EditCollectionComponent } from './components/user-panel/edit-collection/edit-collection.component';
 import { CreateItemComponent } from './components/user-panel/create-item/create-item.component';
+import { UpdateCollectionComponent } from './components/user-panel/update-collection/update-collection.component';
 
 @NgModule({
   declarations: [
@@ -65,6 +66,7 @@ import { CreateItemComponent } from './components/user-panel/create-item/create-
     CreateCollectionComponent,
     EditCollectionComponent,
     CreateItemComponent,
+    UpdateCollectionComponent,
   ],
   imports: [
     BrowserModule,

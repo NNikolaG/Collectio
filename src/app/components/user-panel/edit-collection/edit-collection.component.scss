@@ -49,22 +49,25 @@
     height: 300px;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+
     .add {
         position: relative;
+
         span {
             position: absolute;
             width: 50px;
             border-bottom: 2px solid #222222;
         }
+
         .up {
             transform: rotate(90deg);
         }
     }
 }
 
-.delete-collection{
-    color:brown;
-    cursor: pointer;
+.basic-button {
+    padding: 10px;
+    color: #222222;
 }
 
 @media only screen and (max-width: 992px) {

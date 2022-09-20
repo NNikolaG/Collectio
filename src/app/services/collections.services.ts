@@ -51,10 +51,19 @@ export class CollectionsServices {
     });
   }
 
-  public deleteCollection(id: number){
+  public deleteCollection(id: number) {
     this.http.delete(this.baseUrl + '/' + id).subscribe({
-      next: (result) =>{
+      next: (result) => {
         window.location.replace("http://localhost:4200/my-collections");
+      }
+    });
+  }
+
+  public updateCollection(data: string) {
+    const headers = { 'content-type': 'application/json' }
+    this.http.put(this.baseUrl, data, { 'headers': headers }).subscribe({
+      next: () => {
+        this.message = "Collection Updated";
       }
     });
   }

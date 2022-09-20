@@ -1,10 +1,9 @@
 <div class="container">
     <div class="row mt-5 pt-5 d-flex justify-content-center">
         <div class="col-6">
-            <h1>Create new Collection</h1>
-            <form [formGroup]="createCollection">
+            <h1>Update Collection</h1>
+            <form [formGroup]="updateCollection">
                 <div class="row">
-                    <input hidden [value]="userId" />
                     <mat-form-field appearance="outline">
                         <mat-label>Collection Title <span class="req">*</span> </mat-label><br>
                         <input matInput formControlName="title" class="input-style" />
@@ -37,23 +36,10 @@
                         </div>
                     </mat-form-field>
                 </div>
-                <mat-form-field appearance="outline">
-                    <mat-label>BackgroundImage <span class="req">*</span></mat-label>
-                    <input (change)="getFile($event)" placeholder="Picture" formControlName="backgroundImage"
-                        type="file" multiple="multiple" required>
-                    <div *ngIf="backgroundImage?.invalid && (backgroundImage?.dirty || backgroundImage?.touched)"
-                        class="alert alert-danger">
-                        <mat-error>
-                            <ng-container *ngIf="backgroundImage?.errors?.['required']">
-                                Image is required.
-                            </ng-container>
-                        </mat-error>
-                    </div>
-                </mat-form-field>
                 <div class="row">
                     <div class="col-12">
                         <button class='basic-button' mat-flat-button color="primary" (click)="onSubmit()"
-                            [disabled]="createCollection.invalid">Create Collection</button>
+                            [disabled]="updateCollection.invalid">Update Collection</button>
                     </div>
                 </div>
             </form>

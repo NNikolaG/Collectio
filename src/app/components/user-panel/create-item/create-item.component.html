@@ -4,7 +4,7 @@
             <h1>Create new Item</h1>
             <form [formGroup]="createItem">
                 <div class="row">
-                    <input formControlName="userId" hidden [value]="collectionId" />
+                    <input hidden [value]="collectionId" />
                     <mat-form-field appearance="outline">
                         <mat-label>Item Title <span class="req">*</span> </mat-label><br>
                         <input matInput formControlName="title" class="input-style" style="margin-left: 0px;"/>

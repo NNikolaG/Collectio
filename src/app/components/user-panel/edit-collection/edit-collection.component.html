@@ -14,8 +14,9 @@
             <div class="collection-info">
                 <div class="author">
                     <h1 class="title">{{collection.title}}</h1>
-                    <a class='delete-collection' (click)="deleteCollection(collection.id)">Delete Collection</a>
-                    <p>By : {{collection.username}}</p>
+                    <a class='basic-button' (click)="deleteCollection(collection.id)">Delete Collection</a> or
+                    <a class='basic-button' [routerLink]="['/update-collection', collection.title]">Update Collection</a> 
+                    <p style="margin-top: 10px;">By : {{collection.username}}</p>
                 </div>
             </div>
         </div>

@@ -1,3 +1,4 @@
+import { UpdateCollectionComponent } from './components/user-panel/update-collection/update-collection.component';
 import { CreateItemComponent } from './components/user-panel/create-item/create-item.component';
 import { EditCollectionComponent } from './components/user-panel/edit-collection/edit-collection.component';
 import { CreateCollectionComponent } from './components/user-panel/create-collection/create-collection.component';
@@ -77,19 +78,25 @@ const routes: Routes = [
   {
     path: 'create-collection',
     component: CreateCollectionComponent,
-    data: {title: 'Collēctiō | Create Collection'},
+    data: { title: 'Collēctiō | Create Collection' },
     canActivate: [AuthGuard]
   },
   {
     path: 'edit-collection/:collection',
     component: EditCollectionComponent,
-    data: {title: 'Collēctiō | Edit Collection'},
+    data: { title: 'Collēctiō | Edit Collection' },
     canActivate: [AuthGuard]
   },
   {
     path: 'create-item/:id',
     component: CreateItemComponent,
-    data: {title: 'Collēctiō | Create Item'},
+    data: { title: 'Collēctiō | Create Item' },
+    canActivate: [AuthGuard]
+  },
+  {
+    path: 'update-collection/:title',
+    component: UpdateCollectionComponent,
+    data: { title: 'Collēctiō | Update Collection' },
     canActivate: [AuthGuard]
   }
 ];

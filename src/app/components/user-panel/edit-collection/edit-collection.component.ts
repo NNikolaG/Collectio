@@ -40,13 +40,13 @@ export class EditCollectionComponent implements OnInit {
       this.item = data.data[0].items[0];
       this.items = data.data[0].items;
 
-      if(this.items.length == 1){
+      if (this.items.length == 1) {
         this.deleteColl = this.collection.id;
       }
     })
   }
 
-  deleteCollection(id: number){
+  deleteCollection(id: number) {
     this.collectionServices.deleteCollection(id);
   }
 
