@@ -1,10 +1,10 @@
 <div class="row" *ngIf="collection">
     <div class="background-image col-12" 
-        style="background-image:url('../../../assets/images/{{collection.backgroundImage}}')">
+        style="background-image:url({{backgroundSrc}})">
     </div>
     <div class="image-info-container">
         <div class="collection-image">
-            <img src="../../../assets/images/{{item.image}}" alt="{{item.image}}" srcset="">
+            <img [src]="imageSrc" alt="{{item.image}}" srcset="">
         </div>
     </div>
 </div>

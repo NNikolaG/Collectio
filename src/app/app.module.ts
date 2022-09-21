@@ -14,7 +14,6 @@ import { AngularFireStorageModule } from '@angular/fire/compat/storage';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
-import { LogoComponent } from './components/elements/logo/logo.component';
 
 import { BannerComponent } from './components/home/banner/banner.component';
 import { HomeComponent } from './components/home/home.component';
@@ -45,7 +44,6 @@ import { UpdateCollectionComponent } from './components/user-panel/update-collec
   declarations: [
     AppComponent,
     HeaderComponent,
-    LogoComponent,
     BannerComponent,
     HomeComponent,
     FooterComponent,

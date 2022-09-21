@@ -1,4 +1,5 @@
 import { Component, OnInit, ElementRef, HostListener, Input } from '@angular/core';
+import { FilesService } from 'src/app/services/files.service';
 
 @Component({
   selector: 'app-single-collection',
@@ -14,8 +15,12 @@ export class SingleCollectionComponent implements OnInit {
   isVisible = false;
   brojac!: number;
   interval!: any;
+  public imageSrc!: string;
 
-  constructor(public el: ElementRef<HTMLElement>) {
+  constructor(
+    public el: ElementRef<HTMLElement>,
+    private filesService: FilesService
+  ) {
   }
 
   public transformUrl(data: string): string {
@@ -54,9 +59,12 @@ export class SingleCollectionComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.filesService.getImage(this.data.items[0].image).subscribe((data: any) => {
+      this.imageSrc = data;
+    })
   }
 
-  getLink(): string{
+  getLink(): string {
     return "/" + this.link;
   }
 

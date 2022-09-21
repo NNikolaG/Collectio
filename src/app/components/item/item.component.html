@@ -2,7 +2,7 @@
     <div class="" *ngIf="item.model != 'nomodel'; else noModel">
         <div class="row">
             <div class="image col-lg-6 col-12 mt-5 mb-5 d-flex justify-content-center"><img
-                    src="../../../assets/images/{{item.image}}" alt="{{item.image}}"></div>
+                    [src]="imageSrc" alt="{{item.image}}"></div>
             <div class="model col-lg-6 col-12 mt-5 mb-5">
                 <div class="model-back">
                     <model-viewer src="assets/3Dmodels/{{item.model}}/scene.gltf" alt="fungus model" camera-controls ar
@@ -14,7 +14,7 @@
     <ng-template #noModel>
         <div class="row d-flex justify-content-center">
             <div class="image col-6 mt-5 mb-5 d-flex justify-content-center"><img
-                    src="../../../assets/images/{{item.image}}" alt="{{item.image}}"></div>
+                    [src]="imageSrc" alt="{{item.image}}"></div>
         </div>
     </ng-template>
     <div class="title">

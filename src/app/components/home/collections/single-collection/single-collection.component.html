@@ -1,4 +1,4 @@
-<div class="fungi-content" *ngIf="data.items[0]" [ngStyle]="animateBlock" style="background-image: url('../../../../../assets/images/{{data.items[0].image}}'); background-position: center;
+<div class="fungi-content" *ngIf="data.items[0]" [ngStyle]="animateBlock" style="background-image: url({{imageSrc}}); background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;">
     <div class="layer" [ngStyle]="hoverLayer">

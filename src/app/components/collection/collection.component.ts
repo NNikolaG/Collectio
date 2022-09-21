@@ -1,3 +1,4 @@
+import { FilesService } from 'src/app/services/files.service';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Collections } from 'src/app/interfaces/collections';
@@ -18,11 +19,26 @@ export class CollectionComponent implements OnInit {
   public item!: any;
   public items!: any[];
 
-  constructor(private route: ActivatedRoute, private collectionServices: CollectionsServices) { }
+  public imageSrc!: string;
+  public backgroundSrc!: string;
+
+  constructor(
+    private route: ActivatedRoute,
+    private collectionServices: CollectionsServices,
+    private filesService: FilesService) { }
 
   ngOnInit(): void {
     this.getCollectionName();
     this.getCollection();
+  }
+
+  setImages() {
+    this.filesService.getImage(this.item.image).subscribe((data: any) => {
+      this.imageSrc = data;
+    })
+    this.filesService.getImage(this.collection.backgroundImage).subscribe((data: any) => {
+      this.backgroundSrc = data;
+    })
   }
 
   getCollectionName() {
@@ -31,13 +47,13 @@ export class CollectionComponent implements OnInit {
     });
   }
 
-  getCollection(){
-    this.collectionServices.getCollection(this.collectionTitle).subscribe(data =>{
+  getCollection() {
+    this.collectionServices.getCollection(this.collectionTitle).subscribe(data => {
       this.collection = data.data[0];
       this.item = data.data[0].items[0];
       this.items = data.data[0].items;
-
-      if(this.items.length == 1){
+      this.setImages();
+      if (this.items.length == 1) {
         this.deleteColl = this.collection.id;
       }
     })

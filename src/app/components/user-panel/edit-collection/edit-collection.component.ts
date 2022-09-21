@@ -1,3 +1,4 @@
+import { FilesService } from 'src/app/services/files.service';
 import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Collections } from 'src/app/interfaces/collections';
@@ -17,10 +18,12 @@ export class EditCollectionComponent implements OnInit {
   public item!: any;
   public items!: any[];
   public deleteColl!: number;
+  public imageSrc!: string;
+  public backgroundSrc!: string;
 
   public myCollection: boolean = false;
 
-  constructor(private route: ActivatedRoute, private collectionServices: CollectionsServices) { }
+  constructor(private route: ActivatedRoute, private collectionServices: CollectionsServices, private filesService: FilesService) { }
 
   ngOnInit(): void {
     this.getUserCollections();
@@ -28,37 +31,46 @@ export class EditCollectionComponent implements OnInit {
     this.getCollection();
   }
 
-  getCollectionName() {
-    this.route.params.subscribe(params => {
-      this.collectionTitle = params['collection'].replaceAll('-', ' ');
-    });
-  }
-
-  getCollection() {
-    this.collectionServices.getCollection(this.collectionTitle).subscribe(data => {
-      this.collection = data.data[0];
-      this.item = data.data[0].items[0];
-      this.items = data.data[0].items;
-
-      if (this.items.length == 1) {
-        this.deleteColl = this.collection.id;
-      }
+  setImages() {
+    this.filesService.getImage(this.item.image).subscribe((data: any) => {
+      this.imageSrc = data;
+    })
+    this.filesService.getImage(this.collection.backgroundImage).subscribe((data: any) => {
+      this.backgroundSrc = data;
     })
   }
 
-  deleteCollection(id: number) {
-    this.collectionServices.deleteCollection(id);
-  }
+    getCollectionName() {
+      this.route.params.subscribe(params => {
+        this.collectionTitle = params['collection'].replaceAll('-', ' ');
+      });
+    }
 
-  getUserCollections() {
-    const email = JSON.parse(localStorage.getItem('user')!).email;
-    this.collectionServices.getUserCollections(email).subscribe(data => {
-      data.data.forEach((e) => {
-        if (e.title == this.collectionTitle) {
-          this.myCollection = true;
+    getCollection() {
+      this.collectionServices.getCollection(this.collectionTitle).subscribe(data => {
+        this.collection = data.data[0];
+        this.item = data.data[0].items[0];
+        this.items = data.data[0].items;
+        this.setImages();
+        if (this.items.length == 1) {
+          this.deleteColl = this.collection.id;
         }
       })
-    });
-  }
+    }
 
-}
+    deleteCollection(id: number) {
+      this.collectionServices.deleteCollection(id);
+    }
+
+    getUserCollections() {
+      const email = JSON.parse(localStorage.getItem('user')!).email;
+      this.collectionServices.getUserCollections(email).subscribe(data => {
+        data.data.forEach((e) => {
+          if (e.title == this.collectionTitle) {
+            this.myCollection = true;
+          }
+        })
+      });
+    }
+
+  }

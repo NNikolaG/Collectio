@@ -1,3 +1,4 @@
+import { FilesService } from 'src/app/services/files.service';
 import { Infos } from './../../interfaces/infos';
 import { ItemsService } from './../../services/items.service';
 import { Observable } from 'rxjs';
@@ -17,12 +18,18 @@ export class ItemComponent implements OnInit {
 
   public item!: Items;
   public infos!: [Infos]
+  public imageSrc!: string;
 
-  constructor(private route: ActivatedRoute, private itemServices: ItemsService) { }
+  constructor(private route: ActivatedRoute, private itemServices: ItemsService, private filesService: FilesService) { }
 
   ngOnInit(): void {
     this.getItemName();
     this.getItems();
+  }
+  setImages(){
+    this.filesService.getImage(this.item.image).subscribe((data: any) => {
+      this.imageSrc = data;
+    })
   }
 
   getItemName() {
@@ -35,6 +42,7 @@ export class ItemComponent implements OnInit {
     this.itemServices.getItems(this.itemName).subscribe(data => {
       this.item = data.data[0];
       this.infos = data.data[0].collectionItemInfos;
+      this.setImages();
     })
   }
 }
