@@ -19,6 +19,11 @@ import { AuthGuard } from './services/guard/auth.guard';
 
 const routes: Routes = [
   {
+    path: '',
+    component: HomeComponent,
+    data: { title: 'Collēctiō | Home' }
+  },
+  {
     path: 'sign-in',
     component: SignInComponent,
     data: { title: 'Collēctiō | Sign-in' }
@@ -43,11 +48,6 @@ const routes: Routes = [
     path: 'verify-email-address',
     component: VerifyEmailComponent,
     data: { title: 'Collēctiō | Verify-Email' }
-  },
-  {
-    path: '',
-    component: HomeComponent,
-    data: { title: 'Collēctiō | Home' }
   },
   {
     path: 'collection/:title',
